@@ -1,0 +1,144 @@
+.channelItemsDiv::-webkit-scrollbar {
+  width: 6px !important;
+}
+
+.channelItemsDiv::-webkit-scrollbar-track {
+  background-color: #e4e4e4 !important;
+}
+
+.channelItemsDiv::-webkit-scrollbar-thumb {
+  background-color: gray;
+}
+
+.channelItemsDiv {
+  scrollbar-color: gray #e4e4e4;
+}
+
+.strategy-item-container .dupl_icon {
+  opacity: 0;
+}
+
+.strategy-item-container:hover .dupl_icon {
+  opacity: 1;
+}
+
+/* --------------- */
+
+@media only screen and (max-width: 1230px) {
+  .leftFormPart {
+    max-width: 70% !important;
+  }
+
+  .rightbox {
+    max-width: 26% !important;
+  }
+}
+
+@media only screen and (max-width: 1120px) {
+  .leftFormPart {
+    max-width: 66% !important;
+  }
+
+  .rightbox {
+    max-width: 28% !important;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .formAndRB {
+    max-width: 100% !important;
+  }
+
+  .leftFormPart {
+    max-width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .formAndRB {
+    flex-direction: column !important;
+    max-width: 100% !important;
+    justify-content: center;
+  }
+
+  .leftFormPart {
+    max-width: 100% !important;
+  }
+
+  .rightbox {
+    max-width: 100% !important;
+    margin-left: 15px;
+  }
+
+  .rightbox .rightboxFC {
+    padding-right: 54px !important;
+    padding-top: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .rightbox .rightboxFC {
+    padding-right: 20px !important;
+    padding-top: 0 !important;
+    margin-bottom: 70px;
+    /* margin-left: -10px; */
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .channelSR {
+    flex-direction: column !important;
+    row-gap: 10px;
+  }
+
+  .dropDownNone {
+    width: 100% !important;
+  }
+
+  .hideOn425 {
+    display: none !important;
+  }
+}
+
+.addStrategyBtn:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  transition: 0.3s;
+}
+
+@media only screen and (max-width: 850px) {
+  .dateDivRow {
+    flex-direction: column;
+  }
+
+  .dateDivRow > div {
+    min-width: 100%;
+  }
+}
+
+/* Modal Scrollbar */
+
+.modalMain::-webkit-scrollbar {
+  width: 3px !important;
+  height: 3px !important;
+}
+
+.modalMain::-webkit-scrollbar-track {
+  background-color: #e4e4e4 !important;
+}
+
+.modalMain::-webkit-scrollbar-thumb {
+  background-color: rgb(151, 151, 151);
+}
+
+.modalMain {
+  scrollbar-color: rgb(156, 154, 154) #e4e4e4;
+}
+
+.modalMain::-webkit-scrollbar-horizontal {
+  height: 3px !important;
+}
+
+.modalMain::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(100, 100, 100);
+}

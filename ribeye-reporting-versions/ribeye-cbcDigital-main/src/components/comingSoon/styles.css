@@ -1,0 +1,20 @@
+.coming-soon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    overflow: auto;
+   }
+   
+   .animated-header {
+    display: inline-block;
+    transform: translateY(40px);
+    opacity: 0;
+    transition: transform 1000ms, opacity 3000ms;
+   }
+   
+   .visible {
+    transform: translateY(0px);
+    opacity: 1;
+   }

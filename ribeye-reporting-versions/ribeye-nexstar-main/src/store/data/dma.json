@@ -1,0 +1,1472 @@
+[
+  {
+    "locationType": "dma",
+    "id": 169,
+    "name": "Abilene-Sweetwater, TX",
+    "country_id": 1,
+    "code": "662, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 29,
+    "name": "Albany-Schenectady-Troy, NY",
+    "country_id": 1,
+    "code": "532, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 186,
+    "name": "Albany, GA",
+    "country_id": 1,
+    "code": "525, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 98,
+    "name": "Albuquerque-Santa Fe, NM",
+    "country_id": 1,
+    "code": "790, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 157,
+    "name": "Alexandria, LA",
+    "country_id": 1,
+    "code": "644, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 168,
+    "name": "Alpena, MI",
+    "country_id": 1,
+    "code": "583, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 61,
+    "name": "Amarillo, TX",
+    "country_id": 1,
+    "code": "634, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 149,
+    "name": "Anchorage, AK",
+    "country_id": 1,
+    "code": "743, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 49,
+    "name": "Atlanta, GA",
+    "country_id": 1,
+    "code": "524, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 176,
+    "name": "Augusta, GA",
+    "country_id": 1,
+    "code": "520, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 14,
+    "name": "Austin, TX",
+    "country_id": 1,
+    "code": "635, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 136,
+    "name": "Bakersfield, CA",
+    "country_id": 1,
+    "code": "800, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 17,
+    "name": "Baltimore, MD",
+    "country_id": 1,
+    "code": "512, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 66,
+    "name": "Bangor, ME",
+    "country_id": 1,
+    "code": "537, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 104,
+    "name": "Baton Rouge, LA",
+    "country_id": 1,
+    "code": "716, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 122,
+    "name": "Beaumont-Port Arthur, TX",
+    "country_id": 1,
+    "code": "692, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 175,
+    "name": "Bend, OR",
+    "country_id": 1,
+    "code": "821, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 152,
+    "name": "Billings, MT",
+    "country_id": 1,
+    "code": "756, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 187,
+    "name": "Biloxi-Gulfport, MS",
+    "country_id": 1,
+    "code": "746, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 58,
+    "name": "Binghamton, NY",
+    "country_id": 1,
+    "code": "502, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 76,
+    "name": "Birmingham, AL",
+    "country_id": 1,
+    "code": "630, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 192,
+    "name": "Bluefield-Beckley-Oak Hill, WV",
+    "country_id": 1,
+    "code": "559, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 75,
+    "name": "Boise, ID",
+    "country_id": 1,
+    "code": "757, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 7,
+    "name": "Boston, MA-Manchester, NH",
+    "country_id": 1,
+    "code": "506, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 179,
+    "name": "Bowling Green, KY",
+    "country_id": 1,
+    "code": "736, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 160,
+    "name": "Buffalo, NY",
+    "country_id": 1,
+    "code": "514, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 27,
+    "name": "Burlington, VT-Plattsburgh, NY",
+    "country_id": 1,
+    "code": "523, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 185,
+    "name": "Butte-Bozeman, MT",
+    "country_id": 1,
+    "code": "754, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 112,
+    "name": "Casper-Riverton, WY",
+    "country_id": 1,
+    "code": "767, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 89,
+    "name": "Cedar Rapids-Waterloo-Iowa City, IA",
+    "country_id": 1,
+    "code": "637, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 143,
+    "name": "Champaign & Springfield-Decatur,IL",
+    "country_id": 1,
+    "code": "648, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 142,
+    "name": "Charleston-Huntington, WV",
+    "country_id": 1,
+    "code": "564, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 132,
+    "name": "Charleston, SC",
+    "country_id": 1,
+    "code": "519, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 31,
+    "name": "Charlotte, NC",
+    "country_id": 1,
+    "code": "517, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 194,
+    "name": "Charlottesville, VA",
+    "country_id": 1,
+    "code": "584, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 165,
+    "name": "Chattanooga, TN",
+    "country_id": 1,
+    "code": "575, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 115,
+    "name": "Cheyenne, WY-Scottsbluff, NE",
+    "country_id": 1,
+    "code": "759, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 10,
+    "name": "Chicago, IL",
+    "country_id": 1,
+    "code": "602, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 100,
+    "name": "Chico-Redding, CA",
+    "country_id": 1,
+    "code": "868, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 12,
+    "name": "Cincinnati, OH",
+    "country_id": 1,
+    "code": "515, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 69,
+    "name": "Clarksburg-Weston, WV",
+    "country_id": 1,
+    "code": "598, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 78,
+    "name": "Cleveland-Akron (Canton), OH",
+    "country_id": 1,
+    "code": "510, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 93,
+    "name": "Colorado Springs-Pueblo, CO",
+    "country_id": 1,
+    "code": "752, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 87,
+    "name": "Columbia-Jefferson City, MO",
+    "country_id": 1,
+    "code": "604, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 46,
+    "name": "Columbia, SC",
+    "country_id": 1,
+    "code": "546, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 145,
+    "name": "Columbus-Tupelo-West Point, MS",
+    "country_id": 1,
+    "code": "673, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 158,
+    "name": "Columbus, GA",
+    "country_id": 1,
+    "code": "522, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 22,
+    "name": "Columbus, OH",
+    "country_id": 1,
+    "code": "535, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 65,
+    "name": "Corpus Christi, TX",
+    "country_id": 1,
+    "code": "600, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 13,
+    "name": "Dallas-Ft. Worth, TX",
+    "country_id": 1,
+    "code": "623, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 167,
+    "name": "Davenport,IA-Rock Island-Moline,IL",
+    "country_id": 1,
+    "code": "682, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 42,
+    "name": "Dayton, OH",
+    "country_id": 1,
+    "code": "542, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 95,
+    "name": "Denver, CO",
+    "country_id": 1,
+    "code": "751, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 59,
+    "name": "Des Moines-Ames, IA",
+    "country_id": 1,
+    "code": "679, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 15,
+    "name": "Detroit, MI",
+    "country_id": 1,
+    "code": "505, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 159,
+    "name": "Dothan, AL",
+    "country_id": 1,
+    "code": "606, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 174,
+    "name": "Duluth, MN-Superior, WI",
+    "country_id": 1,
+    "code": "676, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 99,
+    "name": "El Paso, TX",
+    "country_id": 1,
+    "code": "765, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 203,
+    "name": "Elmira, NY",
+    "country_id": 1,
+    "code": "565, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 5,
+    "name": "Erie, PA",
+    "country_id": 1,
+    "code": "516, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 38,
+    "name": "Eugene, OR",
+    "country_id": 1,
+    "code": "801, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 207,
+    "name": "Eureka, CA",
+    "country_id": 1,
+    "code": "802, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 62,
+    "name": "Evansville, IN",
+    "country_id": 1,
+    "code": "649, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 200,
+    "name": "Fairbanks, AK",
+    "country_id": 1,
+    "code": "745, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 55,
+    "name": "Fargo-Valley City, ND",
+    "country_id": 1,
+    "code": "724, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 9,
+    "name": "Flint-Saginaw-Bay City, MI",
+    "country_id": 1,
+    "code": "513, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 133,
+    "name": "Florence-Myrtle Beach, SC",
+    "country_id": 1,
+    "code": "570, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 101,
+    "name": "Fresno-Visalia, CA",
+    "country_id": 1,
+    "code": "866, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 107,
+    "name": "Ft Smith-Springdale, AR",
+    "country_id": 1,
+    "code": "670, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 108,
+    "name": "Ft. Myers-Naples, FL",
+    "country_id": 1,
+    "code": "571, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 164,
+    "name": "Ft. Wayne, IN",
+    "country_id": 1,
+    "code": "509, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 162,
+    "name": "Gainesville, FL",
+    "country_id": 1,
+    "code": "592, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 210,
+    "name": "Glendive, MT",
+    "country_id": 1,
+    "code": "798, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 147,
+    "name": "Grand Junction-Montrose, CO",
+    "country_id": 1,
+    "code": "773, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 50,
+    "name": "Grand Rapids-Kalamazoo, MI",
+    "country_id": 1,
+    "code": "563, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 209,
+    "name": "Great Falls, MT",
+    "country_id": 1,
+    "code": "755, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 60,
+    "name": "Green Bay-Appleton, WI",
+    "country_id": 1,
+    "code": "658, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 84,
+    "name": "Greensboro-Winston Salem, NC",
+    "country_id": 1,
+    "code": "518, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 72,
+    "name": "Greenville-New Bern-Washington, NC",
+    "country_id": 1,
+    "code": "545, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 80,
+    "name": "Greenville-Spartanburg, SC",
+    "country_id": 1,
+    "code": "567, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 201,
+    "name": "Greenwood-Greenville, MS",
+    "country_id": 1,
+    "code": "647, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 137,
+    "name": "Harlingen-Weslaco-McAllen, TX",
+    "country_id": 1,
+    "code": "636, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 134,
+    "name": "Harrisburg-Lancaster-York, PA",
+    "country_id": 1,
+    "code": "566, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 153,
+    "name": "Harrisonburg, VA",
+    "country_id": 1,
+    "code": "569, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 32,
+    "name": "Hartford & New Haven, CT",
+    "country_id": 1,
+    "code": "533, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 188,
+    "name": "Hattiesburg-Laurel, MS",
+    "country_id": 1,
+    "code": "710, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 199,
+    "name": "Helena, MT",
+    "country_id": 1,
+    "code": "766, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 140,
+    "name": "Honolulu, HI",
+    "country_id": 1,
+    "code": "744, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 57,
+    "name": "Houston, TX",
+    "country_id": 1,
+    "code": "618, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 47,
+    "name": "Huntsville-Decatur (Florence), AL",
+    "country_id": 1,
+    "code": "691, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 198,
+    "name": "Idaho Falls-Pocatello, ID",
+    "country_id": 1,
+    "code": "758, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 23,
+    "name": "Indianapolis, IN",
+    "country_id": 1,
+    "code": "527, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 96,
+    "name": "Jackson, MS",
+    "country_id": 1,
+    "code": "718, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 144,
+    "name": "Jackson, TN",
+    "country_id": 1,
+    "code": "639, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 74,
+    "name": "Jacksonville, FL",
+    "country_id": 1,
+    "code": "561, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 135,
+    "name": "Johnstown-Altoona, PA",
+    "country_id": 1,
+    "code": "574, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 129,
+    "name": "Jonesboro, AR",
+    "country_id": 1,
+    "code": "734, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 30,
+    "name": "Joplin, MO-Pittsburg, KS",
+    "country_id": 1,
+    "code": "603, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 204,
+    "name": "Juneau, AK",
+    "country_id": 1,
+    "code": "747, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 81,
+    "name": "Kansas City, MO",
+    "country_id": 1,
+    "code": "616, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 177,
+    "name": "Knoxville, TN",
+    "country_id": 1,
+    "code": "557, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 195,
+    "name": "La Crosse-Eau Claire, WI",
+    "country_id": 1,
+    "code": "702, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 196,
+    "name": "Lafayette, IN",
+    "country_id": 1,
+    "code": "582, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 148,
+    "name": "Lafayette, LA",
+    "country_id": 1,
+    "code": "642, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 118,
+    "name": "Lake Charles, LA",
+    "country_id": 1,
+    "code": "643, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 41,
+    "name": "Lansing, MI",
+    "country_id": 1,
+    "code": "551, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 127,
+    "name": "Laredo, TX",
+    "country_id": 1,
+    "code": "749, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 85,
+    "name": "Las Vegas, NV",
+    "country_id": 1,
+    "code": "839, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 54,
+    "name": "Lexington, KY",
+    "country_id": 1,
+    "code": "541, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 141,
+    "name": "Lima, OH",
+    "country_id": 1,
+    "code": "558, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 106,
+    "name": "Lincoln & Hastings-Kearney, NE",
+    "country_id": 1,
+    "code": "722, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 116,
+    "name": "Little Rock-Pine Bluff, AR",
+    "country_id": 1,
+    "code": "693, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 26,
+    "name": "Los Angeles, CA",
+    "country_id": 1,
+    "code": "803, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 79,
+    "name": "Louisville, KY",
+    "country_id": 1,
+    "code": "529, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 124,
+    "name": "Lubbock, TX",
+    "country_id": 1,
+    "code": "651, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 56,
+    "name": "Macon, GA",
+    "country_id": 1,
+    "code": "503, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 171,
+    "name": "Madison, WI",
+    "country_id": 1,
+    "code": "669, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 205,
+    "name": "Mankato, MN",
+    "country_id": 1,
+    "code": "737, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 172,
+    "name": "Marquette, MI",
+    "country_id": 1,
+    "code": "553, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 180,
+    "name": "Medford-Klamath Falls, OR",
+    "country_id": 1,
+    "code": "813, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 33,
+    "name": "Memphis, TN",
+    "country_id": 1,
+    "code": "640, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 184,
+    "name": "Meridian, MS",
+    "country_id": 1,
+    "code": "711, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 35,
+    "name": "Miami-Ft. Lauderdale, FL",
+    "country_id": 1,
+    "code": "528, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 52,
+    "name": "Milwaukee, WI",
+    "country_id": 1,
+    "code": "617, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 43,
+    "name": "Minneapolis-St. Paul, MN",
+    "country_id": 1,
+    "code": "613, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 125,
+    "name": "Minot-Bismarck-Dickinson, ND",
+    "country_id": 1,
+    "code": "687, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 146,
+    "name": "Missoula, MT",
+    "country_id": 1,
+    "code": "762, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 131,
+    "name": "Mobile, AL-Pensacola, FL",
+    "country_id": 1,
+    "code": "686, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 126,
+    "name": "Monroe, LA-El Dorado, AR",
+    "country_id": 1,
+    "code": "628, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 138,
+    "name": "Monterey-Salinas, CA",
+    "country_id": 1,
+    "code": "828, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 88,
+    "name": "Montgomery (Selma), AL",
+    "country_id": 1,
+    "code": "698, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 8,
+    "name": "Nashville, TN",
+    "country_id": 1,
+    "code": "659, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 94,
+    "name": "New Orleans, LA",
+    "country_id": 1,
+    "code": "622, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 1,
+    "name": "New York, NY",
+    "country_id": 1,
+    "code": "501, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 18,
+    "name": "Norfolk-Portsmouth-Newport News,VA",
+    "country_id": 1,
+    "code": "544, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 155,
+    "name": "North Platte, NE",
+    "country_id": 1,
+    "code": "740, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 103,
+    "name": "Odessa-Midland, TX",
+    "country_id": 1,
+    "code": "633, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 90,
+    "name": "Oklahoma City, OK",
+    "country_id": 1,
+    "code": "650, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 45,
+    "name": "Omaha, NE",
+    "country_id": 1,
+    "code": "652, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 102,
+    "name": "Orlando-Daytona Beach, FL",
+    "country_id": 1,
+    "code": "534, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 202,
+    "name": "Ottumwa, IA-Kirksville, MO",
+    "country_id": 1,
+    "code": "631, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 86,
+    "name": "Paducah, KY-Harrisburg, IL",
+    "country_id": 1,
+    "code": "632, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 77,
+    "name": "Palm Springs, CA",
+    "country_id": 1,
+    "code": "804, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 170,
+    "name": "Panama City, FL",
+    "country_id": 1,
+    "code": "656, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 190,
+    "name": "Parkersburg, WV",
+    "country_id": 1,
+    "code": "597, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 25,
+    "name": "Peoria-Bloomington, IL",
+    "country_id": 1,
+    "code": "675, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 16,
+    "name": "Philadelphia, PA",
+    "country_id": 1,
+    "code": "504, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 24,
+    "name": "Phoenix, AZ",
+    "country_id": 1,
+    "code": "753, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 2,
+    "name": "Pittsburgh, PA",
+    "country_id": 1,
+    "code": "508, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 39,
+    "name": "Portland-Auburn, ME",
+    "country_id": 1,
+    "code": "500, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 40,
+    "name": "Portland, OR",
+    "country_id": 1,
+    "code": "820, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 208,
+    "name": "Presque Isle, ME",
+    "country_id": 1,
+    "code": "552, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 37,
+    "name": "Providence, RI-New Bedford, MA",
+    "country_id": 1,
+    "code": "521, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 139,
+    "name": "Quincy, IL-Hannibal, MO-Keokuk, IA",
+    "country_id": 1,
+    "code": "717, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 20,
+    "name": "Raleigh-Durham (Fayetteville), NC",
+    "country_id": 1,
+    "code": "560, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 109,
+    "name": "Rapid City, SD",
+    "country_id": 1,
+    "code": "764, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 173,
+    "name": "Reno, NV",
+    "country_id": 1,
+    "code": "811, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 11,
+    "name": "Richmond-Petersburg, VA",
+    "country_id": 1,
+    "code": "556, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 163,
+    "name": "Roanoke-Lynchburg, VA",
+    "country_id": 1,
+    "code": "573, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 123,
+    "name": "Rochester-Austin, MN-Mason City, IA",
+    "country_id": 1,
+    "code": "611, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 114,
+    "name": "Rochester, NY",
+    "country_id": 1,
+    "code": "538, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 166,
+    "name": "Rockford, IL",
+    "country_id": 1,
+    "code": "610, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 64,
+    "name": "Sacramento-Stockton-Modesto, CA",
+    "country_id": 1,
+    "code": "862, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 68,
+    "name": "Salisbury, MD",
+    "country_id": 1,
+    "code": "576, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 92,
+    "name": "Salt Lake City, UT",
+    "country_id": 1,
+    "code": "770, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 120,
+    "name": "San Angelo, TX",
+    "country_id": 1,
+    "code": "661, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 111,
+    "name": "San Antonio, TX",
+    "country_id": 1,
+    "code": "641, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 19,
+    "name": "San Diego, CA",
+    "country_id": 1,
+    "code": "825, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 4,
+    "name": "San Francisco-Oakland-San Jose, CA",
+    "country_id": 1,
+    "code": "807, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 161,
+    "name": "Santa Barbara-San Luis Obispo, CA",
+    "country_id": 1,
+    "code": "855, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 67,
+    "name": "Savannah, GA",
+    "country_id": 1,
+    "code": "507, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 53,
+    "name": "Seattle-Tacoma, WA",
+    "country_id": 1,
+    "code": "819, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 34,
+    "name": "Sherman, TX-Ada, OK",
+    "country_id": 1,
+    "code": "657, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 119,
+    "name": "Shreveport, LA",
+    "country_id": 1,
+    "code": "612, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 97,
+    "name": "Sioux City, IA",
+    "country_id": 1,
+    "code": "624, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 83,
+    "name": "Sioux Falls(Mitchell), SD",
+    "country_id": 1,
+    "code": "725, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 51,
+    "name": "South Bend-Elkhart, IN",
+    "country_id": 1,
+    "code": "588, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 130,
+    "name": "Spokane, WA",
+    "country_id": 1,
+    "code": "881, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 113,
+    "name": "Springfield-Holyoke, MA",
+    "country_id": 1,
+    "code": "543, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 70,
+    "name": "Springfield, MO",
+    "country_id": 1,
+    "code": "619, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 182,
+    "name": "St. Joseph, MO",
+    "country_id": 1,
+    "code": "638, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 3,
+    "name": "St. Louis, MO",
+    "country_id": 1,
+    "code": "609, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 6,
+    "name": "Syracuse, NY",
+    "country_id": 1,
+    "code": "555, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 105,
+    "name": "Tallahassee, FL-Thomasville, GA",
+    "country_id": 1,
+    "code": "530, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 44,
+    "name": "Tampa-St Petersburg (Sarasota), FL",
+    "country_id": 1,
+    "code": "539, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 63,
+    "name": "Terre Haute, IN",
+    "country_id": 1,
+    "code": "581, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 36,
+    "name": "Toledo, OH",
+    "country_id": 1,
+    "code": "547, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 82,
+    "name": "Topeka, KS",
+    "country_id": 1,
+    "code": "605, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 48,
+    "name": "Traverse City-Cadillac, MI",
+    "country_id": 1,
+    "code": "540, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 117,
+    "name": "Tri-Cities, TN-VA",
+    "country_id": 1,
+    "code": "531, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 128,
+    "name": "Tucson (Sierra Vista), AZ",
+    "country_id": 1,
+    "code": "789, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 110,
+    "name": "Tulsa, OK",
+    "country_id": 1,
+    "code": "671, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 197,
+    "name": "Twin Falls, ID",
+    "country_id": 1,
+    "code": "760, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 156,
+    "name": "Tyler-Longview(Nacogdoches), TX",
+    "country_id": 1,
+    "code": "709, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 183,
+    "name": "Utica, NY",
+    "country_id": 1,
+    "code": "526, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 189,
+    "name": "Victoria, TX",
+    "country_id": 1,
+    "code": "626, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 151,
+    "name": "Waco-Temple-Bryan, TX",
+    "country_id": 1,
+    "code": "625, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 21,
+    "name": "Washington, DC (Hagerstown, MD)",
+    "country_id": 1,
+    "code": "511, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 178,
+    "name": "Watertown, NY",
+    "country_id": 1,
+    "code": "549, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 206,
+    "name": "Wausau-Rhinelander, WI",
+    "country_id": 1,
+    "code": "705, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 28,
+    "name": "West Palm Beach-Ft. Pierce, FL",
+    "country_id": 1,
+    "code": "548, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 71,
+    "name": "Wheeling, WV-Steubenville, OH",
+    "country_id": 1,
+    "code": "554, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 154,
+    "name": "Wichita Falls, TX & Lawton, OK",
+    "country_id": 1,
+    "code": "627, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 121,
+    "name": "Wichita-Hutchinson, KS",
+    "country_id": 1,
+    "code": "678, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 193,
+    "name": "Wilkes Barre-Scranton, PA",
+    "country_id": 1,
+    "code": "577, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 73,
+    "name": "Wilmington, NC",
+    "country_id": 1,
+    "code": "550, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 150,
+    "name": "Yakima-Pasco-Richland-Kennewick, WA",
+    "country_id": 1,
+    "code": "810, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 181,
+    "name": "Youngstown, OH",
+    "country_id": 1,
+    "code": "536, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 91,
+    "name": "Yuma, AZ-El Centro, CA",
+    "country_id": 1,
+    "code": "771, US"
+  },
+  {
+    "locationType": "dma",
+    "id": 191,
+    "name": "Zanesville, OH",
+    "country_id": 1,
+    "code": "596, US"
+  }
+]

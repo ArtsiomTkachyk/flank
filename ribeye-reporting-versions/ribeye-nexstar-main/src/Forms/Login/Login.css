@@ -1,0 +1,18 @@
+.form_wrapper {
+  width: 100%;
+  padding: 50px 0;
+  min-height: 100vh;
+  background-image: url("https://s3.amazonaws.com/www2.vibe.co/auth/images/bg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+}
+
+.form_wrapper form {
+  border: 1px solid #e2e8f0;
+}
