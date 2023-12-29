@@ -1,4 +1,3 @@
-import { useEffect } from 'react';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import { Provider } from 'react-redux';
 import { ToastContainer } from 'react-toastify';

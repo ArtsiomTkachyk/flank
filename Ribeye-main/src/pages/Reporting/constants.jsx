@@ -108,15 +108,18 @@ export const listBoxItems = [
     id: '21',
     label: 'State',
     value: 'Region',
+    resolution: 'provinces',
   },
   {
     id: '22',
     label: 'Zip Code',
     value: 'Zip Code',
+    resolution: 'provinces',
   },
   {
     id: '23',
     label: 'DMA',
     value: 'DMA',
+    resolution: 'metros',
   },
 ];

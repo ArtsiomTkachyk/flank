@@ -23,7 +23,12 @@ ChartJS.register(
   ChartGeo.GeoFeature
 );
 
-export default function HeatMap({ data: dataB, selectedAdvertiser, value }) {
+export default function HeatMap({
+  data: dataB,
+  selectedAdvertiser,
+  value,
+  resolution,
+}) {
   const [getResult, setGetResult] = useState([]);
   const filtered = dataB.filter(
     (val) => val.Advertiser === selectedAdvertiser.Advertiser
@@ -70,8 +75,6 @@ export default function HeatMap({ data: dataB, selectedAdvertiser, value }) {
 
   const allDataSetData = getResult?.map((val) => val[value]?.map((val) => val));
 
-
-
   const geoChartData = allDataSetData[0] !== undefined && [
     ['name', 'Impressions', 'Frequency'],
     ...allDataSetData[0].map((usdata) =>
@@ -105,18 +108,17 @@ export default function HeatMap({ data: dataB, selectedAdvertiser, value }) {
             },
           },
         ]}
-        chartType="GeoChart"
-        width="100%"
-        height="100vh"
+        chartType='GeoChart'
+        width='100%'
+        height='100vh'
         data={geoChartData}
         options={{
           region: 'US',
           displayMode: 'regions',
-          resolution: 'provinces',
-          tooltip: { trigger: 'focus' }, // Set trigger to "focus" for tooltips on hover
+          resolution: resolution,
+          tooltip: { trigger: 'focus' },
         }}
       />
-      {/* <USMapChart data={allDataSetData[0]} /> */}
     </div>
   );
 }
