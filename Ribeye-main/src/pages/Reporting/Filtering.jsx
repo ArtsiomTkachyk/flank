@@ -1,4 +1,4 @@
-import { useMemo, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 import { DemoContainer } from '@mui/x-date-pickers/internals/demo';
@@ -9,16 +9,11 @@ import DropdownSVG from '../../assets/icons/filtering/DropdownIcon.svg';
 import StationSVG from '../../assets/icons/filtering/StationIcon.svg';
 import AdvertiserSVG from '../../assets/icons/filtering/AdvertiserIcon.svg';
 import CampaignSVG from '../../assets/icons/filtering/CampaignIcon.svg';
-import Select from '@mui/material/Select';
-import MenuItem from '@mui/material/MenuItem';
 
-import { Listbox, Transition } from '@headlessui/react';
-import { Fragment, useState } from 'react';
-
-import dData from '../../../dummyMINI.json';
-import moment from 'moment/moment';
+import dData from '../../../dummUPDATED.json';
 import { DateRangePicker } from '@mui/x-date-pickers-pro';
 import { SingleInputDateRangeField } from '@mui/x-date-pickers-pro/SingleInputDateRangeField';
+import SelectWithSearch from './SelectWithSearch';
 
 function CalendarIcon() {
   return <img src={CalendarSVG} alt='Calendar' />;
@@ -26,59 +21,66 @@ function CalendarIcon() {
 function DropdownIcon() {
   return <img src={DropdownSVG} alt='Calendar' />;
 }
-function StationIcon() {
-  return <img src={StationSVG} alt='Calendar' />;
-}
-function AdvertiserIcon() {
-  return <img src={AdvertiserSVG} alt='Calendar' />;
-}
-function CampaignIcon() {
-  return <img src={CampaignSVG} alt='Calendar' />;
-}
-
+/*
 const STATIONS_LIST = [
-  { Station: 'Station 1' },
-  { Station: 'Station 2' },
-  { Station: 'Station 3' },
-  { Station: 'Station 4' },
-  { Station: 'Station 5' },
-  { Station: 'Station 6' },
+  { Station: 'True Impact Media', Agency: 'Media Culture' },
+  { Station: 'True Impact Media', Agency: 'The Remnant Agency' },
+  { Station: 'True Impact Media', Agency: 'Bell Media' },
+  { Station: 'National Media Spots', Agency: 'SmartSites' },
+  { Station: 'National Media Spots', Agency: 'Ignite Visibility' },
+  { Station: 'National Media Spots', Agency: 'HigherVisibility' },
+  { Station: 'National Media Spots', Agency: 'Grow My Ads' },
+  { Station: 'National Media Spots', Agency: 'SEM Nexus' },
+  { Station: 'National Media Spots', Agency: 'Propaganda Creative' },
+  { Station: 'National Media Spots' },
+  { Station: 'S&P Global', Agency: 'Digital Silk' },
+  { Station: 'S&P Global', Agency: 'Disruptive Advertising' },
+  { Station: 'S&P Global', Agency: 'DD.NYC' },
+  { Station: 'S&P Global' },
+  { Station: 'S&P Global' },
 ];
 
+const dataUpdated = dData.map((item, index) => {
+  const id = index % STATIONS_LIST.length;
+  return {
+    ...item,
+    station: STATIONS_LIST[id].Station,
+    stationId: index,
+    agency: STATIONS_LIST[id].Agency || null,
+    agencyId: STATIONS_LIST[id].Agency ? index + 1000 : null,
+  };
+});
+*/
+
 function Filtering({
-  sameAdvertiserArray,
-  sameCampaignArray,
   selectedCurrentField,
   setSelectedCurrentField,
-  currentDataArray,
+  dataArray,
   setCurrentDataArray,
 }) {
-  const [firstDate, setFirstDate] = useState('');
-  const [secondDate, setSecondDate] = useState('');
-
+  const [dataFiltered, setDataFiltered] = useState(dataArray);
   const [dateRange, setDateRange] = useState([null, null]);
-  const [formatedDateRange, setFormatedDateRange] = useState([null, null]);
+  const [stationValue, setStationValue] = useState([]);
+  const [stationList, setStationList] = useState([]);
+  const [agencyValue, setAgencyValue] = useState([]);
+  const [agencyList, setAgencyList] = useState([]);
+  const [advertiserValue, setAdvertiserValue] = useState([]);
+  const [advertiserList, setAdvertiserList] = useState([]);
+  const [CampaignValue, setCampaignValue] = useState([]);
+  const [campaignList, setCampaignList] = useState([]);
 
   useEffect(() => {
-    setFormatedDateRange(
-      dateRange.map((date, index) => {
-        console.log(
-          '5555555',
-          moment(new Date(0)).format('MM.DD.YYYY').toString(),
-          moment(new Date()).format('MM.DD.YYYY').toString()
+    setDataFiltered(
+      dataArray.filter((val) => {
+        return (
+          (dateRange[0] || new Date(0)) <= new Date(val['Report Date']) &&
+          (dateRange[1] || new Date()) >= new Date(val['Report Date'])
         );
-        if (date) {
-          return moment(new Date(date)).format('MM.DD.YYYY').toString();
-        }
-        return index === 0
-          ? moment(new Date(0)).format('MM.DD.YYYY').toString()
-          : moment(new Date()).format('MM.DD.YYYY').toString();
       })
     );
   }, [dateRange]);
 
   const handleSetDateRange = (newValue) => {
-    console.log(' dateRange, ', newValue);
     setDateRange(newValue);
   };
 
@@ -89,6 +91,7 @@ function Filtering({
       Station: newValue.Station,
     });
   };
+
   const handleSetAdvertiser = (newValue) => {
     setSelectedCurrentField({
       ...selectedCurrentField,
@@ -103,24 +106,6 @@ function Filtering({
     });
   };
 
-  const handleFirstDateChange = (newValue) => {
-    console.log(newValue);
-    setSelectedCurrentField({
-      Station: 'Select Station',
-      Advertiser: 'Select Advertiser',
-      Campaign: 'Select Campaign',
-    });
-    setFirstDate(newValue);
-  };
-  const handleLastDateChange = (newValue) => {
-    setSelectedCurrentField({
-      Station: 'Select Station',
-      Advertiser: 'Select Advertiser',
-      Campaign: 'Select Campaign',
-    });
-    setSecondDate(newValue);
-  };
-
   const handleClearAll = () => {
     setDateRange([null, null]);
     setSelectedCurrentField({
@@ -130,29 +115,15 @@ function Filtering({
     });
   };
 
-  const fDate = new Date(firstDate);
-  const sDate = new Date(secondDate);
-
-  const dateFiltered = useMemo(
-    () =>
-      dData.filter((val) => {
-        return (
-          formatedDateRange[0] <= val['Report Date'] &&
-          formatedDateRange[1] >= val['Report Date']
-        );
-      }),
-    [formatedDateRange]
-  );
-
   useEffect(() => {
     setCurrentDataArray(
-      dateFiltered.length !== 0
-        ? dateFiltered
-        : formatedDateRange[0] || formatedDateRange[0]
+      dataFiltered?.length !== 0
+        ? dataFiltered
+        : dateRange[0] || dateRange[1]
         ? []
         : dData
     );
-  }, [dateFiltered]);
+  }, [dataFiltered]);
 
   return (
     <div className='h-max pb-8 shadow-md px-4 flex-wrap mb-7 rounded-lg border overflow-hidden'>
@@ -164,15 +135,16 @@ function Filtering({
         </button>
       </div>
 
-      <div className='grid gap-y-2 grid-cols-1 md:grid-cols-6 lg:grid-cols-10 gap-x-1'>
-        <div className='col-span-4'>
+      <div className='grid gap-y-1 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-3'>
+        <div className='col-span-1 md:col-span-2 pt-0 '>
           <LocalizationProvider dateAdapter={AdapterDayjs}>
             <DemoContainer components={['SingleInputDateRangeField']}>
               <DateRangePicker
+                className='overflow-hidden'
                 format='MMM D,YYYY'
+                calendars={1}
                 sx={{
-                  height: 100,
-                  background: '#fff',
+                  height: 'auto',
                   borderRadius: '8px',
                 }}
                 slots={{
@@ -192,236 +164,38 @@ function Filtering({
               />
             </DemoContainer>
           </LocalizationProvider>
-          {moment(fDate).format('MM.DD.YYYY').toString() >
-            moment(sDate).format('MM.DD.YYYY').toString() &&
-            firstDate !== '' && (
-              <p className='text-red-500'>Select a valid Start Date</p>
-            )}
         </div>
-        <div className='col-span-2'>
-          <div className=' '>
-            <Listbox
-              disabled={currentDataArray.length === 0}
-              value={selectedCurrentField}
-              onChange={handleSetStation}
-            >
-              <div className='relative mt-1'>
-                <Listbox.Button
-                  className={`${
-                    currentDataArray.length === 0
-                      ? 'cursor-not-allowed text-slate-400'
-                      : 'cursor-pointer'
-                  } w-full rounded-lg border-2 bg-white py-[10px] h-[42px] pl-3 pr-10 text-left focus:outline-none focus-visible:border-[#708090] focus-visible:ring-2 hover:border-slate-400 transition-colors focus-visible:ring-white focus-visible:ring-opacity-75 focus-visible:ring-offset-2 focus-visible:ring-offset-orange-300 sm:text-sm  border-gray-300`}
-                >
-                  <span className='pointer-events-none absolute inset-y-0 left-2 flex items-center pr-2'>
-                    <StationIcon />
-                  </span>
-                  <span className='block truncate pl-5'>
-                    {selectedCurrentField.Station}
-                  </span>
-                  <span className='pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2'>
-                    <DropdownIcon />
-                  </span>
-                </Listbox.Button>
-                <Transition
-                  as={Fragment}
-                  leave='transition ease-in duration-100'
-                  leaveFrom='opacity-100'
-                  leaveTo='opacity-0'
-                >
-                  <Listbox.Options className=' mt-1 max-h-60 w-full overflow-auto rounded-md bg-white py-1 text-base shadow-lg sm:text-sm'>
-                    <>
-                      {STATIONS_LIST.map((item, itemIndex) => (
-                        <Listbox.Option
-                          key={itemIndex}
-                          className={({ active }) =>
-                            `relative cursor-default select-none py-2 pl-10 pr-4 hover:bg-gray-200
-                            }`
-                          }
-                          value={item}
-                        >
-                          {({ selectedStation }) => (
-                            <>
-                              <span
-                                className={`block truncate ${
-                                  selectedStation
-                                    ? 'font-medium'
-                                    : 'font-normal'
-                                }`}
-                              >
-                                {item.Station}
-                              </span>
-                            </>
-                          )}
-                        </Listbox.Option>
-                      ))}
-                    </>
-                  </Listbox.Options>
-                </Transition>
-              </div>
-            </Listbox>
-          </div>
+        <div className='col-span-1 flex items-center w-full'>
+          <SelectWithSearch
+            iconSVG={StationSVG}
+            placeholder='Select Station'
+            value={stationValue}
+            setValue={setStationValue}
+          />
         </div>
-        {/* 
-        disabled={currentDataArray.length === 0}
-        value={selectedCurrentField}
-        onChange={handleSetStation}
-        <StationIcon />
-        selectedCurrentField.Station
-        <DropdownIcon />
-        STATIONS_LIST.map((item, itemIndex) => ())
-        */
-        /* <div className="col-span-2">
-          <div className=" ">
-            <Select
-              labelId="demo-multiple-name-label"
-              id="demo-multiple-name"
-              multiple
-              value={selectedCurrentField}
-              onChange={handleChange}
-              input={<OutlinedInput label="Name" />}
-              MenuProps={MenuProps}
-            >
-              {names.map((name) => (
-                <MenuItem
-                  key={name}
-                  value={name}
-                  style={getStyles(name, personName, theme)}
-                >
-                  {name}
-                </MenuItem>
-              ))}
-            </Select>
-          </div>
-        </div> */}
-
-        <div className='col-span-2'>
-          <div className=' '>
-            <Listbox
-              disabled={currentDataArray.length === 0}
-              value={selectedCurrentField}
-              onChange={handleSetAdvertiser}
-            >
-              <div className='relative mt-1'>
-                <Listbox.Button
-                  className={`${
-                    currentDataArray.length === 0
-                      ? 'cursor-not-allowed text-slate-400'
-                      : 'cursor-pointer'
-                  } w-full rounded-lg border-2 bg-white py-[10px] h-[42px] pl-3 pr-10 text-left focus:outline-none focus-visible:border-[#708090] focus-visible:ring-2 hover:border-slate-400 transition-colors focus-visible:ring-white focus-visible:ring-opacity-75 focus-visible:ring-offset-2 focus-visible:ring-offset-orange-300 sm:text-sm  border-gray-300`}
-                >
-                  <span className='pointer-events-none absolute inset-y-0 left-2 flex items-center pr-2'>
-                    <AdvertiserIcon />
-                  </span>
-                  <span className='block truncate pl-5'>
-                    {selectedCurrentField.Advertiser}
-                  </span>
-                  <span className='pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2'>
-                    <DropdownIcon />
-                  </span>
-                </Listbox.Button>
-                <Transition
-                  as={Fragment}
-                  leave='transition ease-in duration-100'
-                  leaveFrom='opacity-100'
-                  leaveTo='opacity-0'
-                >
-                  <Listbox.Options className='absolute mt-1 max-h-60 w-full overflow-auto rounded-md bg-white py-1 text-base shadow-lg sm:text-sm'>
-                    <>
-                      {sameAdvertiserArray.map((item, itemIndex) => (
-                        <Listbox.Option
-                          key={itemIndex}
-                          className={({ active }) =>
-                            `relative cursor-default select-none py-2 pl-10 pr-4 hover:bg-gray-200
-                            }`
-                          }
-                          value={item}
-                        >
-                          {({ selectedCurrentField }) => (
-                            <>
-                              <span
-                                className={`block truncate ${
-                                  selectedCurrentField
-                                    ? 'font-medium'
-                                    : 'font-normal'
-                                }`}
-                              >
-                                {item.Advertiser}
-                              </span>
-                            </>
-                          )}
-                        </Listbox.Option>
-                      ))}
-                    </>
-                  </Listbox.Options>
-                </Transition>
-              </div>
-            </Listbox>
-          </div>
+        <div className='col-span-1 flex items-center w-full'>
+          <SelectWithSearch
+            iconSVG={StationSVG}
+            placeholder='Select Agency'
+            value={stationValue}
+            setValue={setStationValue}
+          />
         </div>
-        <div className='col-span-2'>
-          <div className=''>
-            <Listbox
-              disabled={
-                selectedCurrentField.Advertiser === 'Select Advertiser' ||
-                currentDataArray.length === 0
-              }
-              value={selectedCurrentField}
-              onChange={handleSetCampaign}
-            >
-              <div className='relative mt-1'>
-                <Listbox.Button
-                  className={`${
-                    selectedCurrentField.Advertiser === 'Select Advertiser' ||
-                    currentDataArray.length === 0
-                      ? 'text-slate-400 cursor-not-allowed'
-                      : 'text-black cursor-pointer'
-                  } w-full rounded-lg border-2 bg-white py-[10px] h-[42px] pl-3 pr-10 text-left hover:border-slate-400 transition-colors focus:outline-none focus-visible:border-[#708090] focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75 focus-visible:ring-offset-2 focus-visible:ring-offset-orange-300 sm:text-sm  border-gray-300`}
-                >
-                  <span className='pointer-events-none absolute inset-y-0 left-2 flex items-center pr-2'>
-                    <CampaignIcon />
-                  </span>
-                  <span className='block truncate pl-5'>
-                    {selectedCurrentField.Campaign}
-                  </span>
-                  <span className='pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2'>
-                    <DropdownIcon />
-                  </span>
-                </Listbox.Button>
-                <Transition
-                  as={Fragment}
-                  leave='transition ease-in duration-100'
-                  leaveFrom='opacity-100'
-                  leaveTo='opacity-0'
-                >
-                  <Listbox.Options className='absolute mt-1 max-h-60 w-full overflow-auto rounded-md bg-white py-1 text-base shadow-lg sm:text-sm'>
-                    {sameCampaignArray.map((item, itemIndex) => (
-                      <Listbox.Option
-                        key={itemIndex}
-                        className={({ active }) =>
-                          `relative cursor-default select-none py-2 pl-10 pr-4 hover:bg-gray-200
-                            }`
-                        }
-                        value={item}
-                      >
-                        {({ selected }) => (
-                          <>
-                            <span
-                              className={`block truncate ${
-                                selected ? 'font-medium' : 'font-normal'
-                              }`}
-                            >
-                              {item.Campaign}
-                            </span>
-                          </>
-                        )}
-                      </Listbox.Option>
-                    ))}
-                  </Listbox.Options>
-                </Transition>
-              </div>
-            </Listbox>
-          </div>
+        <div className='col-span-1 flex items-center w-full'>
+          <SelectWithSearch
+            iconSVG={AdvertiserSVG}
+            placeholder='Select Advertiser'
+            value={stationValue}
+            setValue={setStationValue}
+          />
+        </div>
+        <div className='col-span-1 flex items-center w-full'>
+          <SelectWithSearch
+            iconSVG={CampaignSVG}
+            placeholder='Select Campaign'
+            value={stationValue}
+            setValue={setStationValue}
+          />
         </div>
       </div>
     </div>

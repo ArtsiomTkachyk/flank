@@ -8,7 +8,7 @@ import {
   Legend,
   ArcElement,
 } from 'chart.js';
-import { Bar, Doughnut, Pie } from 'react-chartjs-2';
+import { Bar, Doughnut } from 'react-chartjs-2';
 
 ChartJS.register(
   CategoryScale,
@@ -23,41 +23,41 @@ ChartJS.register(
 const options = {
   responsive: true,
 
-  tooltips: {
-    enabled: true,
-    mode: 'label',
-    callbacks: {
-      title: function (tooltipItems, data) {
-        var idx = tooltipItems[0].index;
-        return 'Title:' + data.labels[idx]; //do something with title
-      },
-      label: function (tooltipItems, data) {
-        //var idx = tooltipItems.index;
-        //return data.labels[idx] + ' €';
-        return tooltipItems.xLabel + ' €';
-      },
-    },
-  },
   plugins: {
     legend: {
-      position: 'right',
+      display: false,
     },
   },
 };
 
-
-
 export default function ImpressionBarChart({ chartData }) {
   return (
-    <div className="bar_chart">
+    <div className='bar_chart'>
       <Bar
-        style={{ width: 300, height: 300, margin: 'auto' }}
-        options={
-          (options,
-          {
-            maintainAspectRatio: false,
-          })
-        }
+        style={{ height: 300, margin: 'auto' }}
+        options={{
+          ...options,
+          borderRadius: 5,
+          borderSkipped: false,
+          backgroundColor: '#193B2C',
+          scales: {
+            y: {
+              grid: {
+                drawTicks: false,
+              },
+              border: {
+                display: false,
+                dash: [6, 3],
+              },
+            },
+            x: {
+              grid: {
+                display: false,
+              },
+            },
+          },
+          maintainAspectRatio: false,
+        }}
         data={chartData}
       />
     </div>
@@ -65,7 +65,7 @@ export default function ImpressionBarChart({ chartData }) {
 }
 export function ImpressionPieChart({ chartData }) {
   return (
-    <div className="bar_chart">
+    <div className='bar_chart'>
       <Doughnut
         style={{ width: 300, height: 300, margin: 'auto' }}
         // style={{ width: 600, height: 600, margin: 'auto' }}

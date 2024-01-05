@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import ImpressionBarChart, {
   ImpressionPieChart,
-} from '../../../components/Charts/ImpressionLineChart';
+} from '../../../components/Charts/ImpressionBarChart';
 import Card from '../../../components/shared/Card';
 
 function TableByCategory({
@@ -104,7 +104,7 @@ function TableByCategory({
   return (
     <Card>
       <div>
-        <h1 className="font-semibold text-lg text-left mb-4  ">{heading}</h1>
+        <h1 className='font-semibold text-lg text-left mb-4  '>{heading}</h1>
         {type === 'Bar' ? (
           <ImpressionBarChart chartData={barChartData} />
         ) : (

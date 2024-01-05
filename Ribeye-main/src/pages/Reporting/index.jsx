@@ -3,7 +3,7 @@ import ads_click from '../../assets/icons/ads_click.svg';
 import local_atm from '../../assets/icons/local_atm.svg';
 import totalCampaign from '../../assets/icons/totalCampaign.svg';
 import track_changes from '../../assets/icons/track_changes.svg';
-import ImpressionLineChart from '../../components/Charts/ImpressionLineChart';
+import ImpressionBarChart from '../../components/Charts/ImpressionBarChart';
 
 import { Listbox, Transition } from '@headlessui/react';
 import { Fragment, useState } from 'react';
@@ -15,7 +15,7 @@ import {
   FunnelIcon,
   XMarkIcon,
 } from '@heroicons/react/20/solid';
-import dData from '../../../dummyMINI.json';
+import dData from '../../../dummUPDATED.json';
 import Table from './Table';
 import moment from 'moment/moment';
 import HeatMap from '../../components/HeatMap/HeatMap';
@@ -27,8 +27,8 @@ import autoAnimate from '@formkit/auto-animate';
 import Filtering from './Filtering';
 
 const Reporting = () => {
+  const [currentDataArray, setCurrentDataArray] = useState(dData);
   const [selected, setSelected] = useState({ ['Campaign Name']: 'Select...' });
-  const [showFilter, setShowFilter] = useState(false);
   const [listboxSelected, setListboxSelected] = useState({
     label: 'State',
     value: 'Region',
@@ -66,8 +66,6 @@ const Reporting = () => {
     );
   });
 
-  const [currentDataArray, setCurrentDataArray] = useState(dData);
-
   useEffect(() => {
     const tImpressions = currentDataArray.reduce(
       (a, c) => a + c.Impressions,
@@ -86,7 +84,6 @@ const Reporting = () => {
     setTotalRevenue(tRevenue);
   }, [
     currentDataArray,
-    selectedAdvertisments,
     selected,
     totalImpressions,
     totalFrequency,
@@ -104,12 +101,10 @@ const Reporting = () => {
   const [sameCampaignRevenue, setSameCampaignRevenue] = useState({});
   const [sameCampaignFrequency, setSameCampaignFrequency] = useState({});
 
-  console.log(2222222222222, currentDataArray);
   const filterdCampaigns = currentDataArray.filter((val) => {
     return val.Advertiser?.includes(selectedAdvertisments.Advertiser);
   });
 
-  const [show, setShow] = useState(false);
   const parent = useRef(null);
 
   useEffect(() => {
@@ -180,7 +175,6 @@ const Reporting = () => {
     }, {});
     setSameCampaign(sCampaign);
 
-    console.log(111111111, filterdCampaigns);
     // Same Campaign Reach
 
     const sCampaignReach = filterdCampaigns.reduce((acc, item) => {
@@ -322,7 +316,6 @@ const Reporting = () => {
       {
         label: 'By Day',
         data: chartDataInArray.map((val) => val.Impressions),
-        backgroundColor: ['#708090'],
       },
     ],
   };
@@ -333,9 +326,8 @@ const Reporting = () => {
         <Filtering
           selectedCurrentField={selectedCurrentField}
           setSelectedCurrentField={setSelectedCurrentField}
-          sameAdvertiserArray={sameAdvertiserArray}
           sameCampaignArray={sameCampaignArray}
-          currentDataArray={currentDataArray}
+          dataArray={dData}
           setCurrentDataArray={setCurrentDataArray}
         />
         <div>
@@ -443,7 +435,7 @@ const Reporting = () => {
               <h2 className='text-[#171725] text-4xl mb-5 text-center font-bold'>
                 Impressions
               </h2>
-              <ImpressionLineChart chartData={chartData} />
+              <ImpressionBarChart chartData={chartData} />
             </div>
           </Card>
         </div>
