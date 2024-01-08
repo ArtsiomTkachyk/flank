@@ -7,7 +7,7 @@ import AllTable from './AllTable';
 import Card from '../../components/shared/Card';
 import { Switch } from '@headlessui/react';
 
-function Table({ data, selectedAdvertiser }) {
+function Table({ data }) {
   const [searchParams, setSearchParams] = useSearchParams({
     name: '',
   });
@@ -20,16 +20,13 @@ function Table({ data, selectedAdvertiser }) {
   });
   const [getResult, setGetResult] = useState([]);
 
-  const filtered = data.filter(
+  const filtered = data; /*.filter(
     (val) => val.Advertiser === selectedAdvertiser.Advertiser
-  );
+  );*/
 
   useEffect(() => {
     setSearchParams({
-      name:
-        selectedAdvertiser.Advertiser === 'Select...'
-          ? 'channel'
-          : searchParams.get('name'),
+      name: 'channel',
     });
     const result = filtered.reduce((accumulator, currentItem) => {
       const existingItem = accumulator.find(
@@ -75,7 +72,7 @@ function Table({ data, selectedAdvertiser }) {
       return accumulator;
     }, []);
     setGetResult(result);
-  }, [currentLink, selectedAdvertiser]);
+  }, [currentLink]);
 
   const chartDataSetsData = getResult?.map((val) =>
     val[currentLink.value]?.map((val) => val)
@@ -117,8 +114,7 @@ function Table({ data, selectedAdvertiser }) {
               }}
               className={`
               ${
-                searchParams.get('name') === link.sParams &&
-                selectedAdvertiser.Advertiser !== 'Select...'
+                searchParams.get('name') === link.sParams
                   ? 'bg-black'
                   : 'bg-[#708090]'
               }
@@ -234,14 +230,14 @@ function Table({ data, selectedAdvertiser }) {
       </div>
 
       <div className='mt-9 mb-6'>
-        {selectedAdvertiser.Advertiser !== 'Select...' && (
+        {
           <div>
             <AllTable
               filtered={filtered}
-              selectedAdvertiser={selectedAdvertiser}
+              selectedAdvertiser={'selectedAdvertiser'}
             />
           </div>
-        )}
+        }
       </div>
     </div>
   );

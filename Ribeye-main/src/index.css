@@ -12,6 +12,14 @@ body {
   background-color: #141718 !important;
 }
 
+.MuiDateRangePickerDay-day.Mui-selected {
+  background-color: #1b4332 !important;
+}
+
+.MuiDateRangePickerDay-rangeIntervalDayHighlight {
+  background-color: #def2ea !important;
+}
+
 .MuiOutlinedInput-notchedOutline {
   border-color: #afb3b8 !important;
 }

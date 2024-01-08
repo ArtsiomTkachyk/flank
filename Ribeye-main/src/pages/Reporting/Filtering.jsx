@@ -14,6 +14,21 @@ import { DateRangePicker } from '@mui/x-date-pickers-pro';
 import { SingleInputDateRangeField } from '@mui/x-date-pickers-pro/SingleInputDateRangeField';
 import SelectWithSearch from './SelectWithSearch';
 
+const calculateTotal = (arrayOfElements) => {
+  const total = {
+    impressions: 0,
+    reach: 0,
+    frequency: 0,
+    revenue: 0,
+  };
+  arrayOfElements.forEach((report) => {
+    total.impressions += report.Impressions;
+    total.reach += report.Reach;
+    total.frequency += report.Frequency;
+    total.revenue += report.Revenue;
+  });
+  return total;
+};
 const findUnicFields = (arrayOfElements, nameField, idField) => {
   const newArray = [];
   const total = {
@@ -40,94 +55,8 @@ function CalendarIcon() {
 function DropdownIcon() {
   return <img src={DropdownSVG} alt='Calendar' />;
 }
-/*
-const STATIONS_LIST = [
-  {
-    Station: 'True Impact Media',
-    stationId: 11,
-    Agency: 'Media Culture',
-    agencyId: 1,
-  },
-  {
-    Station: 'True Impact Media',
-    stationId: 11,
-    Agency: 'The Remnant Agency',
-    agencyId: 2,
-  },
-  {
-    Station: 'True Impact Media',
-    stationId: 11,
-    Agency: 'Bell Media',
-    agencyId: 3,
-  },
-  {
-    Station: 'National Media Spots',
-    stationId: 55,
-    Agency: 'SmartSites',
-    agencyId: 4,
-  },
-  {
-    Station: 'National Media Spots',
-    stationId: 55,
-    Agency: 'Ignite Visibility',
-    agencyId: 5,
-  },
-  {
-    Station: 'National Media Spots',
-    stationId: 55,
-    Agency: 'HigherVisibility',
-    agencyId: 6,
-  },
-  {
-    Station: 'National Media Spots',
-    stationId: 55,
-    Agency: 'Grow My Ads',
-    agencyId: 7,
-  },
-  {
-    Station: 'National Media Spots',
-    stationId: 55,
-    Agency: 'SEM Nexus',
-    agencyId: 8,
-  },
-  {
-    Station: 'National Media Spots',
-    stationId: 55,
-    Agency: 'Propaganda Creative',
-    agencyId: 9,
-  },
-  { Station: 'National Media Spots', stationId: 55 },
-  { Station: 'S&P Global', stationId: 2, Agency: 'Digital Silk', agencyId: 10 },
-  {
-    Station: 'S&P Global',
-    stationId: 2,
-    Agency: 'Disruptive Advertising',
-    agencyId: 11,
-  },
-  { Station: 'S&P Global', stationId: 2, Agency: 'DD.NYC', agencyId: 12 },
-  { Station: 'S&P Global', stationId: 2 },
-  { Station: 'S&P Global', stationId: 2 },
-];
 
-const dataUpdated = dData.map((item, index) => {
-  const id = index % STATIONS_LIST.length;
-  return {
-    ...item,
-    station: STATIONS_LIST[id].Station,
-    stationId: STATIONS_LIST[id].stationId,
-    agency: STATIONS_LIST[id].Agency || null,
-    agencyId: STATIONS_LIST[id].agencyId || null,
-  };
-});
-*/
-
-function Filtering({
-  selectedCurrentField,
-  setSelectedCurrentField,
-  dataArray,
-  setCurrentDataArray,
-  setTotals,
-}) {
+function Filtering({ dataArray, setCurrentDataArray, setTotals }) {
   const [dataFiltered, setDataFiltered] = useState(dataArray);
   const [dateRange, setDateRange] = useState([null, null]);
   const [stationValue, setStationValue] = useState([]);
@@ -136,7 +65,7 @@ function Filtering({
   const [agencyList, setAgencyList] = useState([]);
   const [advertiserValue, setAdvertiserValue] = useState([]);
   const [advertiserList, setAdvertiserList] = useState([]);
-  const [CampaignValue, setCampaignValue] = useState([]);
+  const [campaignValue, setCampaignValue] = useState([]);
   const [campaignList, setCampaignList] = useState([]);
 
   const handleSetDateRange = (newValue) => {
@@ -159,14 +88,14 @@ function Filtering({
   }, [dateRange]);
 
   useEffect(() => {
-    setStationValue([]);
+    if (stationValue.length !== 0) setStationValue([]);
     const calculatedData = findUnicFields(dataFiltered, 'station', 'stationId');
     setStationList(calculatedData.newArray);
     setTotals(calculatedData.total);
   }, [dataFiltered]);
 
   useEffect(() => {
-    setAgencyValue([]);
+    if (agencyValue.length !== 0) setAgencyValue([]);
     setAgencyList([]);
     if (stationValue.length !== 0) {
       const calculatedData = findUnicFields(
@@ -176,11 +105,97 @@ function Filtering({
         'agency',
         'agencyId'
       );
-      console.log('calculatedData', calculatedData);
       setAgencyList(calculatedData.newArray);
       setTotals(calculatedData.total);
     }
   }, [stationValue]);
+
+  useEffect(() => {
+    if (advertiserValue.length !== 0) setAdvertiserValue([]);
+    setAdvertiserList([]);
+    if (stationValue.length !== 0 && agencyValue.length !== 0) {
+      const calculatedData = findUnicFields(
+        dataFiltered.filter(
+          (item) =>
+            stationValue.map((item) => item.id).includes(item.stationId) &&
+            agencyValue.map((item) => item.id).includes(item.agencyId)
+        ),
+        'Advertiser',
+        'advertiserId'
+      );
+      setAdvertiserList(calculatedData.newArray);
+      setTotals(calculatedData.total);
+    }
+    if (stationValue.length !== 0 && agencyValue.length === 0) {
+      const calculatedData = findUnicFields(
+        dataFiltered.filter((item) =>
+          stationValue.map((item) => item.id).includes(item.stationId)
+        ),
+        'Advertiser',
+        'advertiserId'
+      );
+      setAdvertiserList(calculatedData.newArray);
+      setTotals(calculatedData.total);
+    }
+  }, [stationValue, agencyValue]);
+
+  useEffect(() => {
+    if (campaignValue.length !== 0) setCampaignValue([]);
+    setCampaignList([]);
+    if (stationValue.length !== 0 && advertiserValue.length !== 0) {
+      const calculatedData = findUnicFields(
+        dataFiltered.filter(
+          (item) =>
+            stationValue.map((item) => item.id).includes(item.stationId) &&
+            (!agencyValue.length
+              ? true
+              : agencyValue.map((item) => item.id).includes(item.agencyId)) &&
+            advertiserValue.map((item) => item.id).includes(item.advertiserId)
+        ),
+        'Campaign Name',
+        'campaignId'
+      );
+      setCampaignList(calculatedData.newArray);
+      setTotals(calculatedData.total);
+    }
+  }, [advertiserValue]);
+
+  useEffect(() => {
+    if (
+      stationValue.length !== 0 &&
+      agencyValue.length !== 0 &&
+      advertiserValue.length !== 0
+    ) {
+      if (campaignValue.length !== 0) {
+        const calculatedData = findUnicFields(
+          dataFiltered.filter(
+            (item) =>
+              stationValue.map((item) => item.id).includes(item.stationId) &&
+              agencyValue.map((item) => item.id).includes(item.agencyId) &&
+              advertiserValue
+                .map((item) => item.id)
+                .includes(item.advertiserId) &&
+              campaignValue.map((item) => item.id).includes(item.campaignId)
+          ),
+          'Campaign Name',
+          'campaignId'
+        );
+        setTotals(calculatedData.total);
+      } else {
+        const calculatedData = findUnicFields(
+          dataFiltered.filter(
+            (item) =>
+              stationValue.map((item) => item.id).includes(item.stationId) &&
+              agencyValue.map((item) => item.id).includes(item.agencyId) &&
+              advertiserValue.map((item) => item.id).includes(item.advertiserId)
+          ),
+          'Campaign Name',
+          'campaignId'
+        );
+        setTotals(calculatedData.total);
+      }
+    }
+  }, [campaignValue]);
 
   // | outdated part
   // V
@@ -248,7 +263,7 @@ function Filtering({
         </div>
         <div className='col-span-1 flex items-center w-full'>
           <SelectWithSearch
-            iconSVG={StationSVG}
+            iconSVG={null}
             placeholder='Select Agency'
             listOfItems={agencyList}
             value={agencyValue}
@@ -259,7 +274,7 @@ function Filtering({
           <SelectWithSearch
             iconSVG={AdvertiserSVG}
             placeholder='Select Advertiser'
-            listOfItems={[]}
+            listOfItems={advertiserList}
             value={advertiserValue}
             setValue={setAdvertiserValue}
           />
@@ -268,8 +283,8 @@ function Filtering({
           <SelectWithSearch
             iconSVG={CampaignSVG}
             placeholder='Select Campaign'
-            listOfItems={[]}
-            value={CampaignValue}
+            listOfItems={campaignList}
+            value={campaignValue}
             setValue={setCampaignValue}
           />
         </div>

@@ -1,11 +1,10 @@
 import { useState, useEffect } from 'react';
-import PropTypes from 'prop-types';
+import BusinessIcon from '@mui/icons-material/Business';
 import { styled } from '@mui/material/styles';
 import CheckboxFalse from '../../assets/icons/CheckboxFalse.svg';
 import CheckboxTrue from '../../assets/icons/CheckboxTrue.svg';
 import Autocomplete, { autocompleteClasses } from '@mui/material/Autocomplete';
 import InputBase from '@mui/material/InputBase';
-import Box from '@mui/material/Box';
 import { Checkbox, ClickAwayListener, OutlinedInput } from '@mui/material';
 import DropdownSVG from '../../assets/icons/filtering/DropdownIcon.svg';
 
@@ -63,7 +62,11 @@ export default function SelectWithSearch({
   setValue,
 }) {
   function Icon() {
-    return <img src={iconSVG} alt='Icon' />;
+    return iconSVG ? (
+      <img src={iconSVG} alt='Icon' />
+    ) : (
+      <BusinessIcon color='action' />
+    );
   }
   const [pendingValue, setPendingValue] = useState(value);
 
@@ -92,6 +95,7 @@ export default function SelectWithSearch({
           sx={{ height: 38, width: '100%' }}
           value={value.map((val) => val.name)}
           readOnly
+          disabled={listOfItems.length === 0}
         />
         {open && (
           <div className=' p-1 absolute z-10 bg-white border-r-6 shadow-lg'>
@@ -106,7 +110,7 @@ export default function SelectWithSearch({
               }}
               disableCloseOnSelect
               PopperComponent={StyledAutocompletePopper}
-              noOptionsText='No labels'
+              noOptionsText='No options'
               renderOption={(props, option, { selected }) => (
                 <li {...props}>
                   <Checkbox
@@ -115,7 +119,7 @@ export default function SelectWithSearch({
                     style={{ marginRight: 8 }}
                     checked={selected}
                   />
-                  <Box>{option.name}</Box>
+                  <div className='flex items-center h-8'>{option.name}</div>
                 </li>
               )}
               options={[...listOfItems].sort((a, b) => {

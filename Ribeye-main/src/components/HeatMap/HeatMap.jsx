@@ -30,9 +30,9 @@ export default function HeatMap({
   resolution,
 }) {
   const [getResult, setGetResult] = useState([]);
-  const filtered = dataB.filter(
+  const filtered = dataB; /*.filter(
     (val) => val.Advertiser === selectedAdvertiser.Advertiser
-  );
+  );*/
   useEffect(() => {
     const result = filtered.reduce((accumulator, currentItem) => {
       const existingItem = accumulator.find(

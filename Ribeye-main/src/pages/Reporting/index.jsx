@@ -27,19 +27,10 @@ const Reporting = () => {
     frequency: 0,
     revenue: 0,
   });
-  const [selected, setSelected] = useState({ ['Campaign Name']: 'Select...' });
   const [listboxSelected, setListboxSelected] = useState({
     label: 'State',
     value: 'Region',
     resolution: 'provinces',
-  });
-  const [selectedAdvertisments, setSelectAdvertiser] = useState({
-    Advertiser: 'Select...',
-  });
-  const [selectedCurrentField, setSelectedCurrentField] = useState({
-    Station: 'Select Station',
-    Advertiser: 'Select Advertiser',
-    Campaign: 'Select Campaign',
   });
 
   const [totalImpressions, setTotalImpressions] = useState(0);
@@ -69,7 +60,6 @@ const Reporting = () => {
     setTotalRevenue(tRevenue);
   }, [
     currentDataArray,
-    selected,
     totalImpressions,
     totalFrequency,
     totalReach,
@@ -77,11 +67,6 @@ const Reporting = () => {
   ]);
 
   const [impressionsByDate, setImpressionsByDate] = useState({});
-  const [sameCampaign, setSameCampaign] = useState({});
-
-  const filterdCampaigns = currentDataArray.filter((val) => {
-    return val.Advertiser?.includes(selectedAdvertisments.Advertiser);
-  });
 
   const parent = useRef(null);
 
@@ -98,31 +83,12 @@ const Reporting = () => {
     }, {});
 
     setImpressionsByDate(impressions);
-  }, [selected, totalImpressions, totalFrequency, totalReach, totalRevenue]);
-
-  useEffect(() => {
-    // */ Campaign==================================================
-
-    // Same Campaign and their impressions
-    const sCampaign = filterdCampaigns.reduce((acc, item) => {
-      const { ['Campaign Name']: Campaign, Impressions } = item;
-      acc[Campaign] = (acc[Campaign] || 0) + Impressions;
-      return acc;
-    }, {});
-    setSameCampaign(sCampaign);
-  }, [selected, totalImpressions, totalFrequency, totalReach, totalRevenue]);
+  }, [totalImpressions, totalFrequency, totalReach, totalRevenue]);
 
   // Chart Data
   const chartDataInArray = Object.entries(impressionsByDate).map(
     ([key, value]) => ({
       Date: key,
-      Impressions: value,
-    })
-  );
-
-  const sameCampaignArray = Object.entries(sameCampaign).map(
-    ([key, value]) => ({
-      Campaign: key,
       Impressions: value,
     })
   );
@@ -159,9 +125,6 @@ const Reporting = () => {
     <>
       <div className='w-full space-y-10 px-4 py-6'>
         <Filtering
-          selectedCurrentField={selectedCurrentField}
-          setSelectedCurrentField={setSelectedCurrentField}
-          sameCampaignArray={sameCampaignArray}
           dataArray={dData}
           setCurrentDataArray={setCurrentDataArray}
           setTotals={setTotals}
@@ -219,7 +182,7 @@ const Reporting = () => {
           </Card>
         </div>
         <div className='my-20 '>
-          {selectedCurrentField.Advertiser !== 'Select Advertiser' && (
+          {
             <>
               <div className='max-w-[12rem]'>
                 <Listbox value={listboxSelected} onChange={setListboxSelected}>
@@ -310,19 +273,15 @@ const Reporting = () => {
                   <HeatMap
                     value={listboxSelected.value}
                     data={currentDataArray}
-                    selectedAdvertiser={selectedCurrentField}
                     resolution={listboxSelected.resolution}
                   />
                 )}
               </div>
             </>
-          )}
+          }
         </div>
         <div>
-          <Table
-            data={currentDataArray}
-            selectedAdvertiser={selectedCurrentField}
-          />
+          <Table data={currentDataArray} />
         </div>
       </div>
     </>
