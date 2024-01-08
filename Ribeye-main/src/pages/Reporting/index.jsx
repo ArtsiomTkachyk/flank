@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import ads_click from '../../assets/icons/ads_click.svg';
 import local_atm from '../../assets/icons/local_atm.svg';
 import totalCampaign from '../../assets/icons/totalCampaign.svg';
@@ -8,16 +8,9 @@ import ImpressionBarChart from '../../components/Charts/ImpressionBarChart';
 import { Listbox, Transition } from '@headlessui/react';
 import { Fragment, useState } from 'react';
 
-import {
-  CheckIcon,
-  ChevronDownIcon,
-  ChevronUpDownIcon,
-  FunnelIcon,
-  XMarkIcon,
-} from '@heroicons/react/20/solid';
+import { CheckIcon, ChevronUpDownIcon } from '@heroicons/react/20/solid';
 import dData from '../../../dummUPDATED.json';
 import Table from './Table';
-import moment from 'moment/moment';
 import HeatMap from '../../components/HeatMap/HeatMap';
 // import USMapChart from '../../components/HeatMap/GeoMap';
 // import GeoMap from '../../components/HeatMap/GeoMap';
@@ -28,14 +21,18 @@ import Filtering from './Filtering';
 
 const Reporting = () => {
   const [currentDataArray, setCurrentDataArray] = useState(dData);
+  const [totals, setTotals] = useState({
+    impressions: 0,
+    reach: 0,
+    frequency: 0,
+    revenue: 0,
+  });
   const [selected, setSelected] = useState({ ['Campaign Name']: 'Select...' });
   const [listboxSelected, setListboxSelected] = useState({
     label: 'State',
     value: 'Region',
     resolution: 'provinces',
   });
-  const [firstDate, setFirstDate] = useState('');
-  const [secondDate, setSecondDate] = useState('');
   const [selectedAdvertisments, setSelectAdvertiser] = useState({
     Advertiser: 'Select...',
   });
@@ -53,18 +50,6 @@ const Reporting = () => {
   function classNames(...classes) {
     return classes.filter(Boolean).join(' ');
   }
-
-  const fDate = new Date(firstDate);
-  const sDate = new Date(secondDate);
-
-  const momentFDate = moment(fDate).format('MM.DD.YYYY').toString();
-  const momentSDate = moment(sDate).format('MM.DD.YYYY').toString();
-
-  const dateFiltered = dData.filter((val) => {
-    return (
-      momentFDate <= val['Report Date'] && momentSDate >= val['Report Date']
-    );
-  });
 
   useEffect(() => {
     const tImpressions = currentDataArray.reduce(
@@ -92,14 +77,7 @@ const Reporting = () => {
   ]);
 
   const [impressionsByDate, setImpressionsByDate] = useState({});
-  const [sameAdvertisers, setSameAdvertisers] = useState({});
-  const [sameAdvertisersReach, setSameAdvertisersReach] = useState({});
-  const [sameAdvertisersRevenue, setSameAdvertisersRevenue] = useState({});
-  const [sameAdvertisersFrequency, setSameAdvertisersFrequency] = useState({});
   const [sameCampaign, setSameCampaign] = useState({});
-  const [sameCampaignReach, setSameCampaignReach] = useState({});
-  const [sameCampaignRevenue, setSameCampaignRevenue] = useState({});
-  const [sameCampaignFrequency, setSameCampaignFrequency] = useState({});
 
   const filterdCampaigns = currentDataArray.filter((val) => {
     return val.Advertiser?.includes(selectedAdvertisments.Advertiser);
@@ -120,49 +98,7 @@ const Reporting = () => {
     }, {});
 
     setImpressionsByDate(impressions);
-
-    // Same Advertisers and their Impressions
-
-    const sAdvertisers = currentDataArray.reduce((acc, item) => {
-      const { Advertiser, Impressions } = item;
-      acc[Advertiser] = (acc[Advertiser] || 0) + Impressions;
-      return acc;
-    }, {});
-    setSameAdvertisers(sAdvertisers);
-
-    // Same Advertisers Reach
-
-    const sAdvertisersReach = currentDataArray.reduce((acc, item) => {
-      const { Advertiser, Reach } = item;
-      acc[Advertiser] = (acc[Advertiser] || 0) + Reach;
-      return acc;
-    }, {});
-
-    setSameAdvertisersReach(sAdvertisersReach);
-
-    const sAdvertisersRevenue = currentDataArray.reduce((acc, item) => {
-      const { Advertiser, Revenue } = item;
-      acc[Advertiser] = (acc[Advertiser] || 0) + Revenue;
-      return acc;
-    }, {});
-
-    setSameAdvertisersRevenue(sAdvertisersRevenue);
-
-    const sAdvertisersFrequency = currentDataArray.reduce((acc, item) => {
-      const { Advertiser, Frequency } = item;
-      acc[Advertiser] = (acc[Advertiser] || 0) + Number(Frequency);
-      return acc;
-    }, {});
-
-    setSameAdvertisersFrequency(sAdvertisersFrequency);
-  }, [
-    selectedAdvertisments,
-    selected,
-    totalImpressions,
-    totalFrequency,
-    totalReach,
-    totalRevenue,
-  ]);
+  }, [selected, totalImpressions, totalFrequency, totalReach, totalRevenue]);
 
   useEffect(() => {
     // */ Campaign==================================================
@@ -174,44 +110,7 @@ const Reporting = () => {
       return acc;
     }, {});
     setSameCampaign(sCampaign);
-
-    // Same Campaign Reach
-
-    const sCampaignReach = filterdCampaigns.reduce((acc, item) => {
-      const { ['Campaign Name']: Campaign, Reach } = item;
-      acc[Campaign] = (acc[Campaign] || 0) + Reach;
-      return acc;
-    }, {});
-
-    setSameCampaignReach(sCampaignReach);
-
-    // Same Campaign Revenue
-
-    const sCampaignRevenue = filterdCampaigns.reduce((acc, item) => {
-      const { ['Campaign Name']: Campaign, Revenue } = item;
-      acc[Campaign] = (acc[Campaign] || 0) + Revenue;
-      return acc;
-    }, {});
-
-    setSameCampaignRevenue(sCampaignRevenue);
-
-    // Same Campaign Frequency
-
-    const sCampaignFrequency = filterdCampaigns.reduce((acc, item) => {
-      const { ['Campaign Name']: Campaign, Frequency } = item;
-      acc[Campaign] = (acc[Campaign] || 0) + Number(Frequency);
-      return acc;
-    }, {});
-
-    setSameCampaignFrequency(sCampaignFrequency);
-  }, [
-    selectedAdvertisments,
-    selected,
-    totalImpressions,
-    totalFrequency,
-    totalReach,
-    totalRevenue,
-  ]);
+  }, [selected, totalImpressions, totalFrequency, totalReach, totalRevenue]);
 
   // Chart Data
   const chartDataInArray = Object.entries(impressionsByDate).map(
@@ -221,74 +120,10 @@ const Reporting = () => {
     })
   );
 
-  // Same Impression Array
-  const sameAdvertiserArray = Object.entries(sameAdvertisers).map(
-    ([key, value]) => ({
-      Advertiser: key,
-      Impressions: value,
-    })
-  );
-
-  // Same Reach Array
-  const sameAdvertiserReachArray = Object.entries(sameAdvertisersReach).map(
-    ([key, value]) => ({
-      Advertiser: key,
-      Reach: value,
-    })
-  );
-
-  // Same Frequency Array
-  const sameAdvertiserFrequencyArray = Object.entries(
-    sameAdvertisersFrequency
-  ).map(([key, value]) => ({
-    Advertiser: key,
-    Frequency: value,
-  }));
-
-  // Same Revenue Array
-  const sameAdvertiserRevenueArray = Object.entries(sameAdvertisersRevenue).map(
-    ([key, value]) => ({
-      Advertiser: key,
-      Revenue: value,
-    })
-  );
-
-  // * Campaign ======================================================
-
-  // Same Campaign and Impressions Array
-
   const sameCampaignArray = Object.entries(sameCampaign).map(
     ([key, value]) => ({
       Campaign: key,
       Impressions: value,
-    })
-  );
-
-  console.log('123123123', sameCampaignArray, sameCampaign);
-
-  //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-  // Same Reach Array
-  const sameCampaignReachArray = Object.entries(sameCampaignReach).map(
-    ([key, value]) => ({
-      ['Campaign Name']: key,
-      Reach: value,
-    })
-  );
-
-  // Same Frequency Array
-  const sameCampaignFrequencyArray = Object.entries(sameCampaignFrequency).map(
-    ([key, value]) => ({
-      ['Campaign Name']: key,
-      Frequency: value,
-    })
-  );
-
-  // Same Revenue Array
-  const sameCampaignRevenueArray = Object.entries(sameCampaignRevenue).map(
-    ([key, value]) => ({
-      ['Campaign Name']: key,
-      Revenue: value,
     })
   );
 
@@ -329,6 +164,7 @@ const Reporting = () => {
           sameCampaignArray={sameCampaignArray}
           dataArray={dData}
           setCurrentDataArray={setCurrentDataArray}
+          setTotals={setTotals}
         />
         <div>
           <div className='flex flex-wrap gap-x-3 gap-y-5 justify-between'>
@@ -336,17 +172,7 @@ const Reporting = () => {
               <h2 className='text-base font-semibold'>Impressions</h2>
               <div className='w-full text-[#000] flex justify-between '>
                 <span className='text-2xl font-semibold'>
-                  {selectedAdvertisments.Advertiser === 'Select...'
-                    ? totalImpressions
-                    : selectedAdvertisments.Advertiser !== 'Select...' &&
-                      selected['Campaign Name'] === 'Select...'
-                    ? selectedAdvertisments.Impressions
-                    : sameCampaignArray
-                        .filter(
-                          (val) =>
-                            val['Campaign Name'] === selected['Campaign Name']
-                        )
-                        .map((val) => val.Impressions)}
+                  {totals.impressions}
                 </span>
                 <img src={totalCampaign} alt='campaign' />
               </div>
@@ -355,24 +181,7 @@ const Reporting = () => {
             <div className='flex w-full sm:w-[47%] md:w-[24%] min-w-[250px] min-h-[100px] justify-center rounded-lg bg-[#E5ECF6] shadow-shadowInset10 flex-col px-4 py-2 border border-solid border-[rgba(112, 128, 144, 0.10)]'>
               <h2 className='text-base font-semibold'>Reach</h2>
               <div className='w-full text-[#000] flex justify-between '>
-                <span className='text-2xl font-semibold'>
-                  {selectedAdvertisments.Advertiser === 'Select...'
-                    ? totalReach
-                    : selectedAdvertisments.Advertiser !== 'Select...' &&
-                      selected['Campaign Name'] === 'Select...'
-                    ? sameAdvertiserReachArray
-                        .filter(
-                          (val) =>
-                            val.Advertiser === selectedAdvertisments.Advertiser
-                        )
-                        .map((val) => val.Reach)
-                    : sameCampaignReachArray
-                        .filter(
-                          (val) =>
-                            val['Campaign Name'] === selected['Campaign Name']
-                        )
-                        .map((val) => val.Reach)}
-                </span>
+                <span className='text-2xl font-semibold'>{totals.reach}</span>
                 <img src={track_changes} alt='track changes' />
               </div>
             </div>
@@ -381,22 +190,7 @@ const Reporting = () => {
               <h2 className='text-base font-semibold'>Frequency</h2>
               <div className='w-full text-[#000] flex justify-between '>
                 <span className='text-2xl font-semibold'>
-                  {selectedAdvertisments.Advertiser === 'Select...'
-                    ? totalFrequency.toFixed(1)
-                    : selectedAdvertisments.Advertiser !== 'Select...' &&
-                      selected['Campaign Name'] === 'Select...'
-                    ? sameAdvertiserFrequencyArray
-                        .filter(
-                          (val) =>
-                            val.Advertiser === selectedAdvertisments.Advertiser
-                        )
-                        .map((val) => val.Frequency.toFixed(1))
-                    : sameCampaignFrequencyArray
-                        .filter(
-                          (val) =>
-                            val['Campaign Name'] === selected['Campaign Name']
-                        )
-                        .map((val) => val.Frequency.toFixed(1))}
+                  {totals.frequency.toFixed(1)}
                 </span>
                 <img src={ads_click} alt='ads' />
               </div>
@@ -406,22 +200,7 @@ const Reporting = () => {
               <h2 className='text-base font-semibold'>Budget Spent</h2>
               <div className='w-full text-[#000] flex justify-between '>
                 <span className='text-2xl font-semibold'>
-                  {selectedAdvertisments.Advertiser === 'Select...'
-                    ? totalRevenue.toFixed(3)
-                    : selectedAdvertisments.Advertiser !== 'Select...' &&
-                      selected['Campaign Name'] === 'Select...'
-                    ? sameAdvertiserRevenueArray
-                        .filter(
-                          (val) =>
-                            val.Advertiser === selectedAdvertisments.Advertiser
-                        )
-                        .map((val) => val.Revenue.toFixed(3))
-                    : sameCampaignRevenueArray
-                        .filter(
-                          (val) =>
-                            val['Campaign Name'] === selected['Campaign Name']
-                        )
-                        .map((val) => val.Revenue.toFixed(3))}
+                  {totals.revenue.toFixed(3)}
                 </span>
                 <img src={local_atm} alt='local atm' />
               </div>
@@ -541,7 +320,6 @@ const Reporting = () => {
         </div>
         <div>
           <Table
-            date={dateFiltered}
             data={currentDataArray}
             selectedAdvertiser={selectedCurrentField}
           />

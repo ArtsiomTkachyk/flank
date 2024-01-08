@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { styled } from '@mui/material/styles';
 import CheckboxFalse from '../../assets/icons/CheckboxFalse.svg';
@@ -65,18 +65,22 @@ export default function SelectWithSearch({
   function Icon() {
     return <img src={iconSVG} alt='Icon' />;
   }
+  const [pendingValue, setPendingValue] = useState(value);
+
+  useEffect(() => {
+    if (pendingValue.length !== value.length) setPendingValue(value);
+  }, [value]);
   const [open, setOpen] = useState(false);
   const handleOpen = () => setOpen(!open);
 
   const setAndClose = () => {
-    console.log('EMPTY');
+    setValue(pendingValue);
   };
 
   const handleClose = () => {
     setOpen(false);
   };
 
-  console.log(' value!!! ', value);
   return (
     <ClickAwayListener onClickAway={handleClose}>
       <div className='w-full'>
@@ -96,16 +100,9 @@ export default function SelectWithSearch({
               multiple
               fullWidth
               onClose={setAndClose}
-              value={value}
-              onChange={(event, newValue, reason) => {
-                if (
-                  event.type === 'keydown' &&
-                  event.key === 'Backspace' &&
-                  reason === 'removeOption'
-                ) {
-                  return;
-                }
-                setValue(newValue);
+              value={pendingValue}
+              onChange={(event, newValue) => {
+                setPendingValue(newValue);
               }}
               disableCloseOnSelect
               PopperComponent={StyledAutocompletePopper}
@@ -121,11 +118,11 @@ export default function SelectWithSearch({
                   <Box>{option.name}</Box>
                 </li>
               )}
-              options={[...STATIONS_LIST].sort((a, b) => {
+              options={[...listOfItems].sort((a, b) => {
                 let ai = value.indexOf(a);
-                ai = ai === -1 ? value.length + STATIONS_LIST.indexOf(a) : ai;
+                ai = ai === -1 ? value.length + listOfItems.indexOf(a) : ai;
                 let bi = value.indexOf(b);
-                bi = bi === -1 ? value.length + STATIONS_LIST.indexOf(b) : bi;
+                bi = bi === -1 ? value.length + listOfItems.indexOf(b) : bi;
                 return ai - bi;
               })}
               getOptionLabel={(option) => option.name}
@@ -144,47 +141,3 @@ export default function SelectWithSearch({
     </ClickAwayListener>
   );
 }
-
-// From https://github.com/abdonrd/github-labels
-const STATIONS_LIST = [
-  {
-    name: '(MRG - XTOL) Buick GMC ALM USA',
-    id: '1',
-  },
-  {
-    name: '(MRG - XTOL) Buick GMC ALM UK',
-    id: '2',
-  },
-  {
-    name: '(MRG - XTOL) Buick GMC ALM',
-    id: '4',
-  },
-  {
-    name: 'Buick GMC New',
-    id: '14',
-  },
-  {
-    name: '(MRG - XTOL) New',
-    id: '5',
-  },
-  {
-    name: 'Station 6',
-    id: '6',
-  },
-  {
-    name: 'Station 7',
-    id: '17',
-  },
-  {
-    name: 'Station 8',
-    id: '18',
-  },
-  {
-    name: 'Station 9',
-    id: '9',
-  },
-  {
-    name: 'Station 10',
-    id: '10',
-  },
-];

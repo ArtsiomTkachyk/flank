@@ -7,7 +7,7 @@ import AllTable from './AllTable';
 import Card from '../../components/shared/Card';
 import { Switch } from '@headlessui/react';
 
-function Table({ data, selectedAdvertiser, dateFiltered }) {
+function Table({ data, selectedAdvertiser }) {
   const [searchParams, setSearchParams] = useSearchParams({
     name: '',
   });
@@ -18,10 +18,6 @@ function Table({ data, selectedAdvertiser, dateFiltered }) {
     label: 'Channel',
     value: 'Digital Channel',
   });
-  function classNames(...classes) {
-    return classes.filter(Boolean).join(' ');
-  }
-  // const [channelName, setChannelName] = useState({});
   const [getResult, setGetResult] = useState([]);
 
   const filtered = data.filter(

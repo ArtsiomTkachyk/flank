@@ -33,9 +33,9 @@
     "Advertiser Data CPM": "5",
     "Conversions": 0,
     "station": "True Impact Media",
-    "stationId": 0,
+    "stationId": 11,
     "agency": "Media Culture",
-    "agencyId": 1000
+    "agencyId": 1
   },
   {
     "Report Date": "10.19.2023",
@@ -71,9 +71,9 @@
     "Advertiser Data CPM": "1.3",
     "Conversions": 0,
     "station": "True Impact Media",
-    "stationId": 1,
+    "stationId": 11,
     "agency": "The Remnant Agency",
-    "agencyId": 1001
+    "agencyId": 2
   },
   {
     "Report Date": "10.19.2023",
@@ -109,9 +109,9 @@
     "Advertiser Data CPM": "5",
     "Conversions": 0,
     "station": "True Impact Media",
-    "stationId": 2,
+    "stationId": 11,
     "agency": "Bell Media",
-    "agencyId": 1002
+    "agencyId": 3
   },
   {
     "Report Date": "10.19.2023",
@@ -147,9 +147,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 3,
+    "stationId": 55,
     "agency": "SmartSites",
-    "agencyId": 1003
+    "agencyId": 4
   },
   {
     "Report Date": "10.19.2023",
@@ -185,9 +185,9 @@
     "Advertiser Data CPM": "1",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 4,
+    "stationId": 55,
     "agency": "Ignite Visibility",
-    "agencyId": 1004
+    "agencyId": 5
   },
   {
     "Report Date": "10.19.2023",
@@ -223,9 +223,9 @@
     "Advertiser Data CPM": "5",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 5,
+    "stationId": 55,
     "agency": "HigherVisibility",
-    "agencyId": 1005
+    "agencyId": 6
   },
   {
     "Report Date": "10.19.2023",
@@ -261,9 +261,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 6,
+    "stationId": 55,
     "agency": "Grow My Ads",
-    "agencyId": 1006
+    "agencyId": 7
   },
   {
     "Report Date": "10.19.2023",
@@ -299,9 +299,9 @@
     "Advertiser Data CPM": "5",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 7,
+    "stationId": 55,
     "agency": "SEM Nexus",
-    "agencyId": 1007
+    "agencyId": 8
   },
   {
     "Report Date": "10.19.2023",
@@ -337,9 +337,9 @@
     "Advertiser Data CPM": "1",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 8,
+    "stationId": 55,
     "agency": "Propaganda Creative",
-    "agencyId": 1008
+    "agencyId": 9
   },
   {
     "Report Date": "10.19.2023",
@@ -375,7 +375,7 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 9,
+    "stationId": 55,
     "agency": null,
     "agencyId": null
   },
@@ -413,9 +413,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 10,
+    "stationId": 2,
     "agency": "Digital Silk",
-    "agencyId": 1010
+    "agencyId": 10
   },
   {
     "Report Date": "10.19.2023",
@@ -451,9 +451,9 @@
     "Advertiser Data CPM": "1",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 11,
+    "stationId": 2,
     "agency": "Disruptive Advertising",
-    "agencyId": 1011
+    "agencyId": 11
   },
   {
     "Report Date": "10.19.2023",
@@ -489,9 +489,9 @@
     "Advertiser Data CPM": "1",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 12,
+    "stationId": 2,
     "agency": "DD.NYC",
-    "agencyId": 1012
+    "agencyId": 12
   },
   {
     "Report Date": "10.19.2023",
@@ -527,7 +527,7 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 13,
+    "stationId": 2,
     "agency": null,
     "agencyId": null
   },
@@ -565,7 +565,7 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 14,
+    "stationId": 2,
     "agency": null,
     "agencyId": null
   },
@@ -603,9 +603,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "True Impact Media",
-    "stationId": 15,
+    "stationId": 11,
     "agency": "Media Culture",
-    "agencyId": 1015
+    "agencyId": 1
   },
   {
     "Report Date": "10.19.2023",
@@ -641,9 +641,9 @@
     "Advertiser Data CPM": "1.5",
     "Conversions": 0,
     "station": "True Impact Media",
-    "stationId": 16,
+    "stationId": 11,
     "agency": "The Remnant Agency",
-    "agencyId": 1016
+    "agencyId": 2
   },
   {
     "Report Date": "10.19.2023",
@@ -679,9 +679,9 @@
     "Advertiser Data CPM": "1",
     "Conversions": 0,
     "station": "True Impact Media",
-    "stationId": 17,
+    "stationId": 11,
     "agency": "Bell Media",
-    "agencyId": 1017
+    "agencyId": 3
   },
   {
     "Report Date": "10.19.2023",
@@ -717,9 +717,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 18,
+    "stationId": 55,
     "agency": "SmartSites",
-    "agencyId": 1018
+    "agencyId": 4
   },
   {
     "Report Date": "10.19.2023",
@@ -755,9 +755,9 @@
     "Advertiser Data CPM": "5",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 19,
+    "stationId": 55,
     "agency": "Ignite Visibility",
-    "agencyId": 1019
+    "agencyId": 5
   },
   {
     "Report Date": "10.19.2023",
@@ -793,9 +793,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 20,
+    "stationId": 55,
     "agency": "HigherVisibility",
-    "agencyId": 1020
+    "agencyId": 6
   },
   {
     "Report Date": "10.19.2023",
@@ -831,9 +831,9 @@
     "Advertiser Data CPM": "1.95",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 21,
+    "stationId": 55,
     "agency": "Grow My Ads",
-    "agencyId": 1021
+    "agencyId": 7
   },
   {
     "Report Date": "10.19.2023",
@@ -869,9 +869,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 22,
+    "stationId": 55,
     "agency": "SEM Nexus",
-    "agencyId": 1022
+    "agencyId": 8
   },
   {
     "Report Date": "10.19.2023",
@@ -907,9 +907,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 23,
+    "stationId": 55,
     "agency": "Propaganda Creative",
-    "agencyId": 1023
+    "agencyId": 9
   },
   {
     "Report Date": "10.19.2023",
@@ -945,7 +945,7 @@
     "Advertiser Data CPM": "1",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 24,
+    "stationId": 55,
     "agency": null,
     "agencyId": null
   },
@@ -983,9 +983,9 @@
     "Advertiser Data CPM": "1.3",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 25,
+    "stationId": 2,
     "agency": "Digital Silk",
-    "agencyId": 1025
+    "agencyId": 10
   },
   {
     "Report Date": "10.19.2023",
@@ -1021,9 +1021,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 26,
+    "stationId": 2,
     "agency": "Disruptive Advertising",
-    "agencyId": 1026
+    "agencyId": 11
   },
   {
     "Report Date": "10.19.2023",
@@ -1059,9 +1059,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 27,
+    "stationId": 2,
     "agency": "DD.NYC",
-    "agencyId": 1027
+    "agencyId": 12
   },
   {
     "Report Date": "10.19.2023",
@@ -1097,7 +1097,7 @@
     "Advertiser Data CPM": "5",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 28,
+    "stationId": 2,
     "agency": null,
     "agencyId": null
   },
@@ -1135,7 +1135,7 @@
     "Advertiser Data CPM": "1",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 29,
+    "stationId": 2,
     "agency": null,
     "agencyId": null
   },
@@ -1173,9 +1173,9 @@
     "Advertiser Data CPM": "1.3",
     "Conversions": 0,
     "station": "True Impact Media",
-    "stationId": 30,
+    "stationId": 11,
     "agency": "Media Culture",
-    "agencyId": 1030
+    "agencyId": 1
   },
   {
     "Report Date": "10.19.2023",
@@ -1211,9 +1211,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "True Impact Media",
-    "stationId": 31,
+    "stationId": 11,
     "agency": "The Remnant Agency",
-    "agencyId": 1031
+    "agencyId": 2
   },
   {
     "Report Date": "10.19.2023",
@@ -1249,9 +1249,9 @@
     "Advertiser Data CPM": "1",
     "Conversions": 0,
     "station": "True Impact Media",
-    "stationId": 32,
+    "stationId": 11,
     "agency": "Bell Media",
-    "agencyId": 1032
+    "agencyId": 3
   },
   {
     "Report Date": "10.19.2023",
@@ -1287,9 +1287,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 33,
+    "stationId": 55,
     "agency": "SmartSites",
-    "agencyId": 1033
+    "agencyId": 4
   },
   {
     "Report Date": "10.19.2023",
@@ -1325,9 +1325,9 @@
     "Advertiser Data CPM": "1",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 34,
+    "stationId": 55,
     "agency": "Ignite Visibility",
-    "agencyId": 1034
+    "agencyId": 5
   },
   {
     "Report Date": "10.19.2023",
@@ -1363,9 +1363,9 @@
     "Advertiser Data CPM": "1",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 35,
+    "stationId": 55,
     "agency": "HigherVisibility",
-    "agencyId": 1035
+    "agencyId": 6
   },
   {
     "Report Date": "10.19.2023",
@@ -1401,9 +1401,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 36,
+    "stationId": 55,
     "agency": "Grow My Ads",
-    "agencyId": 1036
+    "agencyId": 7
   },
   {
     "Report Date": "10.19.2023",
@@ -1439,9 +1439,9 @@
     "Advertiser Data CPM": "5",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 37,
+    "stationId": 55,
     "agency": "SEM Nexus",
-    "agencyId": 1037
+    "agencyId": 8
   },
   {
     "Report Date": "10.19.2023",
@@ -1477,9 +1477,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 38,
+    "stationId": 55,
     "agency": "Propaganda Creative",
-    "agencyId": 1038
+    "agencyId": 9
   },
   {
     "Report Date": "10.18.2023",
@@ -1515,7 +1515,7 @@
     "Advertiser Data CPM": "5",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 39,
+    "stationId": 55,
     "agency": null,
     "agencyId": null
   },
@@ -1553,9 +1553,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 40,
+    "stationId": 2,
     "agency": "Digital Silk",
-    "agencyId": 1040
+    "agencyId": 10
   },
   {
     "Report Date": "10.18.2023",
@@ -1591,9 +1591,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 41,
+    "stationId": 2,
     "agency": "Disruptive Advertising",
-    "agencyId": 1041
+    "agencyId": 11
   },
   {
     "Report Date": "10.18.2023",
@@ -1629,9 +1629,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 42,
+    "stationId": 2,
     "agency": "DD.NYC",
-    "agencyId": 1042
+    "agencyId": 12
   },
   {
     "Report Date": "10.18.2023",
@@ -1667,7 +1667,7 @@
     "Advertiser Data CPM": "1.5",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 43,
+    "stationId": 2,
     "agency": null,
     "agencyId": null
   },
@@ -1705,7 +1705,7 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 44,
+    "stationId": 2,
     "agency": null,
     "agencyId": null
   },
@@ -1743,9 +1743,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "True Impact Media",
-    "stationId": 45,
+    "stationId": 11,
     "agency": "Media Culture",
-    "agencyId": 1045
+    "agencyId": 1
   },
   {
     "Report Date": "10.18.2023",
@@ -1781,9 +1781,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "True Impact Media",
-    "stationId": 46,
+    "stationId": 11,
     "agency": "The Remnant Agency",
-    "agencyId": 1046
+    "agencyId": 2
   },
   {
     "Report Date": "10.18.2023",
@@ -1819,9 +1819,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "True Impact Media",
-    "stationId": 47,
+    "stationId": 11,
     "agency": "Bell Media",
-    "agencyId": 1047
+    "agencyId": 3
   },
   {
     "Report Date": "10.18.2023",
@@ -1857,9 +1857,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 48,
+    "stationId": 55,
     "agency": "SmartSites",
-    "agencyId": 1048
+    "agencyId": 4
   },
   {
     "Report Date": "10.18.2023",
@@ -1895,9 +1895,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 49,
+    "stationId": 55,
     "agency": "Ignite Visibility",
-    "agencyId": 1049
+    "agencyId": 5
   },
   {
     "Report Date": "10.18.2023",
@@ -1933,9 +1933,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 50,
+    "stationId": 55,
     "agency": "HigherVisibility",
-    "agencyId": 1050
+    "agencyId": 6
   },
   {
     "Report Date": "10.18.2023",
@@ -1971,9 +1971,9 @@
     "Advertiser Data CPM": "1.3",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 51,
+    "stationId": 55,
     "agency": "Grow My Ads",
-    "agencyId": 1051
+    "agencyId": 7
   },
   {
     "Report Date": "10.18.2023",
@@ -2009,9 +2009,9 @@
     "Advertiser Data CPM": "5",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 52,
+    "stationId": 55,
     "agency": "SEM Nexus",
-    "agencyId": 1052
+    "agencyId": 8
   },
   {
     "Report Date": "10.18.2023",
@@ -2047,9 +2047,9 @@
     "Advertiser Data CPM": "1.2",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 53,
+    "stationId": 55,
     "agency": "Propaganda Creative",
-    "agencyId": 1053
+    "agencyId": 9
   },
   {
     "Report Date": "10.18.2023",
@@ -2085,7 +2085,7 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 54,
+    "stationId": 55,
     "agency": null,
     "agencyId": null
   },
@@ -2123,9 +2123,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 55,
+    "stationId": 2,
     "agency": "Digital Silk",
-    "agencyId": 1055
+    "agencyId": 10
   },
   {
     "Report Date": "10.18.2023",
@@ -2161,9 +2161,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 56,
+    "stationId": 2,
     "agency": "Disruptive Advertising",
-    "agencyId": 1056
+    "agencyId": 11
   },
   {
     "Report Date": "10.18.2023",
@@ -2199,9 +2199,9 @@
     "Advertiser Data CPM": "1.5",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 57,
+    "stationId": 2,
     "agency": "DD.NYC",
-    "agencyId": 1057
+    "agencyId": 12
   },
   {
     "Report Date": "10.18.2023",
@@ -2237,7 +2237,7 @@
     "Advertiser Data CPM": "1",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 58,
+    "stationId": 2,
     "agency": null,
     "agencyId": null
   },
@@ -2275,7 +2275,7 @@
     "Advertiser Data CPM": "1",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 59,
+    "stationId": 2,
     "agency": null,
     "agencyId": null
   },
@@ -2313,9 +2313,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "True Impact Media",
-    "stationId": 60,
+    "stationId": 11,
     "agency": "Media Culture",
-    "agencyId": 1060
+    "agencyId": 1
   },
   {
     "Report Date": "10.18.2023",
@@ -2351,9 +2351,9 @@
     "Advertiser Data CPM": "1",
     "Conversions": 0,
     "station": "True Impact Media",
-    "stationId": 61,
+    "stationId": 11,
     "agency": "The Remnant Agency",
-    "agencyId": 1061
+    "agencyId": 2
   },
   {
     "Report Date": "10.18.2023",
@@ -2389,9 +2389,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "True Impact Media",
-    "stationId": 62,
+    "stationId": 11,
     "agency": "Bell Media",
-    "agencyId": 1062
+    "agencyId": 3
   },
   {
     "Report Date": "10.18.2023",
@@ -2427,9 +2427,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 63,
+    "stationId": 55,
     "agency": "SmartSites",
-    "agencyId": 1063
+    "agencyId": 4
   },
   {
     "Report Date": "10.18.2023",
@@ -2465,9 +2465,9 @@
     "Advertiser Data CPM": "1",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 64,
+    "stationId": 55,
     "agency": "Ignite Visibility",
-    "agencyId": 1064
+    "agencyId": 5
   },
   {
     "Report Date": "10.18.2023",
@@ -2503,9 +2503,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 65,
+    "stationId": 55,
     "agency": "HigherVisibility",
-    "agencyId": 1065
+    "agencyId": 6
   },
   {
     "Report Date": "10.18.2023",
@@ -2541,9 +2541,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 66,
+    "stationId": 55,
     "agency": "Grow My Ads",
-    "agencyId": 1066
+    "agencyId": 7
   },
   {
     "Report Date": "10.18.2023",
@@ -2579,9 +2579,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 67,
+    "stationId": 55,
     "agency": "SEM Nexus",
-    "agencyId": 1067
+    "agencyId": 8
   },
   {
     "Report Date": "10.18.2023",
@@ -2617,9 +2617,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 68,
+    "stationId": 55,
     "agency": "Propaganda Creative",
-    "agencyId": 1068
+    "agencyId": 9
   },
   {
     "Report Date": "10.18.2023",
@@ -2655,7 +2655,7 @@
     "Advertiser Data CPM": "1",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 69,
+    "stationId": 55,
     "agency": null,
     "agencyId": null
   },
@@ -2693,9 +2693,9 @@
     "Advertiser Data CPM": "1",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 70,
+    "stationId": 2,
     "agency": "Digital Silk",
-    "agencyId": 1070
+    "agencyId": 10
   },
   {
     "Report Date": "10.18.2023",
@@ -2731,9 +2731,9 @@
     "Advertiser Data CPM": "1.5",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 71,
+    "stationId": 2,
     "agency": "Disruptive Advertising",
-    "agencyId": 1071
+    "agencyId": 11
   },
   {
     "Report Date": "10.18.2023",
@@ -2769,9 +2769,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 72,
+    "stationId": 2,
     "agency": "DD.NYC",
-    "agencyId": 1072
+    "agencyId": 12
   },
   {
     "Report Date": "10.18.2023",
@@ -2807,7 +2807,7 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 73,
+    "stationId": 2,
     "agency": null,
     "agencyId": null
   },
@@ -2845,7 +2845,7 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 74,
+    "stationId": 2,
     "agency": null,
     "agencyId": null
   },
@@ -2883,9 +2883,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "True Impact Media",
-    "stationId": 75,
+    "stationId": 11,
     "agency": "Media Culture",
-    "agencyId": 1075
+    "agencyId": 1
   },
   {
     "Report Date": "10.18.2023",
@@ -2921,9 +2921,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "True Impact Media",
-    "stationId": 76,
+    "stationId": 11,
     "agency": "The Remnant Agency",
-    "agencyId": 1076
+    "agencyId": 2
   },
   {
     "Report Date": "10.18.2023",
@@ -2959,9 +2959,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "True Impact Media",
-    "stationId": 77,
+    "stationId": 11,
     "agency": "Bell Media",
-    "agencyId": 1077
+    "agencyId": 3
   },
   {
     "Report Date": "10.18.2023",
@@ -2997,9 +2997,9 @@
     "Advertiser Data CPM": "1",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 78,
+    "stationId": 55,
     "agency": "SmartSites",
-    "agencyId": 1078
+    "agencyId": 4
   },
   {
     "Report Date": "10.17.2023",
@@ -3035,9 +3035,9 @@
     "Advertiser Data CPM": "1.3",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 79,
+    "stationId": 55,
     "agency": "Ignite Visibility",
-    "agencyId": 1079
+    "agencyId": 5
   },
   {
     "Report Date": "10.17.2023",
@@ -3073,9 +3073,9 @@
     "Advertiser Data CPM": "0.75",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 80,
+    "stationId": 55,
     "agency": "HigherVisibility",
-    "agencyId": 1080
+    "agencyId": 6
   },
   {
     "Report Date": "10.17.2023",
@@ -3111,9 +3111,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 1,
     "station": "National Media Spots",
-    "stationId": 81,
+    "stationId": 55,
     "agency": "Grow My Ads",
-    "agencyId": 1081
+    "agencyId": 7
   },
   {
     "Report Date": "10.17.2023",
@@ -3149,9 +3149,9 @@
     "Advertiser Data CPM": "1",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 82,
+    "stationId": 55,
     "agency": "SEM Nexus",
-    "agencyId": 1082
+    "agencyId": 8
   },
   {
     "Report Date": "10.17.2023",
@@ -3187,9 +3187,9 @@
     "Advertiser Data CPM": "5",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 83,
+    "stationId": 55,
     "agency": "Propaganda Creative",
-    "agencyId": 1083
+    "agencyId": 9
   },
   {
     "Report Date": "10.17.2023",
@@ -3225,7 +3225,7 @@
     "Advertiser Data CPM": "1",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 84,
+    "stationId": 55,
     "agency": null,
     "agencyId": null
   },
@@ -3263,9 +3263,9 @@
     "Advertiser Data CPM": "1",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 85,
+    "stationId": 2,
     "agency": "Digital Silk",
-    "agencyId": 1085
+    "agencyId": 10
   },
   {
     "Report Date": "10.17.2023",
@@ -3301,9 +3301,9 @@
     "Advertiser Data CPM": "1.2",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 86,
+    "stationId": 2,
     "agency": "Disruptive Advertising",
-    "agencyId": 1086
+    "agencyId": 11
   },
   {
     "Report Date": "10.17.2023",
@@ -3339,9 +3339,9 @@
     "Advertiser Data CPM": "0.9",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 87,
+    "stationId": 2,
     "agency": "DD.NYC",
-    "agencyId": 1087
+    "agencyId": 12
   },
   {
     "Report Date": "10.17.2023",
@@ -3377,7 +3377,7 @@
     "Advertiser Data CPM": "1.5",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 88,
+    "stationId": 2,
     "agency": null,
     "agencyId": null
   },
@@ -3415,7 +3415,7 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 89,
+    "stationId": 2,
     "agency": null,
     "agencyId": null
   },
@@ -3453,9 +3453,9 @@
     "Advertiser Data CPM": "1.5",
     "Conversions": 0,
     "station": "True Impact Media",
-    "stationId": 90,
+    "stationId": 11,
     "agency": "Media Culture",
-    "agencyId": 1090
+    "agencyId": 1
   },
   {
     "Report Date": "10.17.2023",
@@ -3491,9 +3491,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "True Impact Media",
-    "stationId": 91,
+    "stationId": 11,
     "agency": "The Remnant Agency",
-    "agencyId": 1091
+    "agencyId": 2
   },
   {
     "Report Date": "10.17.2023",
@@ -3529,9 +3529,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "True Impact Media",
-    "stationId": 92,
+    "stationId": 11,
     "agency": "Bell Media",
-    "agencyId": 1092
+    "agencyId": 3
   },
   {
     "Report Date": "10.17.2023",
@@ -3567,9 +3567,9 @@
     "Advertiser Data CPM": "1.5",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 93,
+    "stationId": 55,
     "agency": "SmartSites",
-    "agencyId": 1093
+    "agencyId": 4
   },
   {
     "Report Date": "10.17.2023",
@@ -3605,9 +3605,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 94,
+    "stationId": 55,
     "agency": "Ignite Visibility",
-    "agencyId": 1094
+    "agencyId": 5
   },
   {
     "Report Date": "10.17.2023",
@@ -3643,9 +3643,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 95,
+    "stationId": 55,
     "agency": "HigherVisibility",
-    "agencyId": 1095
+    "agencyId": 6
   },
   {
     "Report Date": "10.17.2023",
@@ -3681,9 +3681,9 @@
     "Advertiser Data CPM": "0.9",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 96,
+    "stationId": 55,
     "agency": "Grow My Ads",
-    "agencyId": 1096
+    "agencyId": 7
   },
   {
     "Report Date": "10.17.2023",
@@ -3719,9 +3719,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 97,
+    "stationId": 55,
     "agency": "SEM Nexus",
-    "agencyId": 1097
+    "agencyId": 8
   },
   {
     "Report Date": "10.17.2023",
@@ -3757,9 +3757,9 @@
     "Advertiser Data CPM": "1.3",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 98,
+    "stationId": 55,
     "agency": "Propaganda Creative",
-    "agencyId": 1098
+    "agencyId": 9
   },
   {
     "Report Date": "10.17.2023",
@@ -3795,7 +3795,7 @@
     "Advertiser Data CPM": "1",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 99,
+    "stationId": 55,
     "agency": null,
     "agencyId": null
   },
@@ -3833,9 +3833,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 100,
+    "stationId": 2,
     "agency": "Digital Silk",
-    "agencyId": 1100
+    "agencyId": 10
   },
   {
     "Report Date": "10.17.2023",
@@ -3871,9 +3871,9 @@
     "Advertiser Data CPM": "1.3",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 101,
+    "stationId": 2,
     "agency": "Disruptive Advertising",
-    "agencyId": 1101
+    "agencyId": 11
   },
   {
     "Report Date": "10.17.2023",
@@ -3909,9 +3909,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 102,
+    "stationId": 2,
     "agency": "DD.NYC",
-    "agencyId": 1102
+    "agencyId": 12
   },
   {
     "Report Date": "10.17.2023",
@@ -3947,7 +3947,7 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 103,
+    "stationId": 2,
     "agency": null,
     "agencyId": null
   },
@@ -3985,7 +3985,7 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 104,
+    "stationId": 2,
     "agency": null,
     "agencyId": null
   },
@@ -4023,9 +4023,9 @@
     "Advertiser Data CPM": "5",
     "Conversions": 0,
     "station": "True Impact Media",
-    "stationId": 105,
+    "stationId": 11,
     "agency": "Media Culture",
-    "agencyId": 1105
+    "agencyId": 1
   },
   {
     "Report Date": "10.17.2023",
@@ -4061,9 +4061,9 @@
     "Advertiser Data CPM": "1.1",
     "Conversions": 0,
     "station": "True Impact Media",
-    "stationId": 106,
+    "stationId": 11,
     "agency": "The Remnant Agency",
-    "agencyId": 1106
+    "agencyId": 2
   },
   {
     "Report Date": "10.17.2023",
@@ -4099,9 +4099,9 @@
     "Advertiser Data CPM": "1.2",
     "Conversions": 0,
     "station": "True Impact Media",
-    "stationId": 107,
+    "stationId": 11,
     "agency": "Bell Media",
-    "agencyId": 1107
+    "agencyId": 3
   },
   {
     "Report Date": "10.17.2023",
@@ -4137,9 +4137,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 108,
+    "stationId": 55,
     "agency": "SmartSites",
-    "agencyId": 1108
+    "agencyId": 4
   },
   {
     "Report Date": "10.17.2023",
@@ -4175,9 +4175,9 @@
     "Advertiser Data CPM": "1.3",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 109,
+    "stationId": 55,
     "agency": "Ignite Visibility",
-    "agencyId": 1109
+    "agencyId": 5
   },
   {
     "Report Date": "10.17.2023",
@@ -4213,9 +4213,9 @@
     "Advertiser Data CPM": "1",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 110,
+    "stationId": 55,
     "agency": "HigherVisibility",
-    "agencyId": 1110
+    "agencyId": 6
   },
   {
     "Report Date": "10.17.2023",
@@ -4251,9 +4251,9 @@
     "Advertiser Data CPM": "0.72",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 111,
+    "stationId": 55,
     "agency": "Grow My Ads",
-    "agencyId": 1111
+    "agencyId": 7
   },
   {
     "Report Date": "10.17.2023",
@@ -4289,9 +4289,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 112,
+    "stationId": 55,
     "agency": "SEM Nexus",
-    "agencyId": 1112
+    "agencyId": 8
   },
   {
     "Report Date": "10.17.2023",
@@ -4327,9 +4327,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 113,
+    "stationId": 55,
     "agency": "Propaganda Creative",
-    "agencyId": 1113
+    "agencyId": 9
   },
   {
     "Report Date": "10.17.2023",
@@ -4365,7 +4365,7 @@
     "Advertiser Data CPM": "1.5",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 114,
+    "stationId": 55,
     "agency": null,
     "agencyId": null
   },
@@ -4403,9 +4403,9 @@
     "Advertiser Data CPM": "1.3",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 115,
+    "stationId": 2,
     "agency": "Digital Silk",
-    "agencyId": 1115
+    "agencyId": 10
   },
   {
     "Report Date": "10.17.2023",
@@ -4441,9 +4441,9 @@
     "Advertiser Data CPM": "1",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 116,
+    "stationId": 2,
     "agency": "Disruptive Advertising",
-    "agencyId": 1116
+    "agencyId": 11
   },
   {
     "Report Date": "10.17.2023",
@@ -4479,9 +4479,9 @@
     "Advertiser Data CPM": "1",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 117,
+    "stationId": 2,
     "agency": "DD.NYC",
-    "agencyId": 1117
+    "agencyId": 12
   },
   {
     "Report Date": "10.17.2023",
@@ -4517,7 +4517,7 @@
     "Advertiser Data CPM": "1.3",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 118,
+    "stationId": 2,
     "agency": null,
     "agencyId": null
   },
@@ -4555,7 +4555,7 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 119,
+    "stationId": 2,
     "agency": null,
     "agencyId": null
   },
@@ -4593,9 +4593,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "True Impact Media",
-    "stationId": 120,
+    "stationId": 11,
     "agency": "Media Culture",
-    "agencyId": 1120
+    "agencyId": 1
   },
   {
     "Report Date": "10.16.2023",
@@ -4631,9 +4631,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "True Impact Media",
-    "stationId": 121,
+    "stationId": 11,
     "agency": "The Remnant Agency",
-    "agencyId": 1121
+    "agencyId": 2
   },
   {
     "Report Date": "10.16.2023",
@@ -4669,9 +4669,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "True Impact Media",
-    "stationId": 122,
+    "stationId": 11,
     "agency": "Bell Media",
-    "agencyId": 1122
+    "agencyId": 3
   },
   {
     "Report Date": "10.16.2023",
@@ -4707,9 +4707,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 123,
+    "stationId": 55,
     "agency": "SmartSites",
-    "agencyId": 1123
+    "agencyId": 4
   },
   {
     "Report Date": "10.16.2023",
@@ -4745,9 +4745,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 124,
+    "stationId": 55,
     "agency": "Ignite Visibility",
-    "agencyId": 1124
+    "agencyId": 5
   },
   {
     "Report Date": "10.16.2023",
@@ -4783,9 +4783,9 @@
     "Advertiser Data CPM": "1.5",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 125,
+    "stationId": 55,
     "agency": "HigherVisibility",
-    "agencyId": 1125
+    "agencyId": 6
   },
   {
     "Report Date": "10.16.2023",
@@ -4821,9 +4821,9 @@
     "Advertiser Data CPM": "1.5",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 126,
+    "stationId": 55,
     "agency": "Grow My Ads",
-    "agencyId": 1126
+    "agencyId": 7
   },
   {
     "Report Date": "10.16.2023",
@@ -4859,9 +4859,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 127,
+    "stationId": 55,
     "agency": "SEM Nexus",
-    "agencyId": 1127
+    "agencyId": 8
   },
   {
     "Report Date": "10.16.2023",
@@ -4897,9 +4897,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 128,
+    "stationId": 55,
     "agency": "Propaganda Creative",
-    "agencyId": 1128
+    "agencyId": 9
   },
   {
     "Report Date": "10.16.2023",
@@ -4935,7 +4935,7 @@
     "Advertiser Data CPM": "1.5",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 129,
+    "stationId": 55,
     "agency": null,
     "agencyId": null
   },
@@ -4973,9 +4973,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 130,
+    "stationId": 2,
     "agency": "Digital Silk",
-    "agencyId": 1130
+    "agencyId": 10
   },
   {
     "Report Date": "10.16.2023",
@@ -5011,9 +5011,9 @@
     "Advertiser Data CPM": "1",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 131,
+    "stationId": 2,
     "agency": "Disruptive Advertising",
-    "agencyId": 1131
+    "agencyId": 11
   },
   {
     "Report Date": "10.16.2023",
@@ -5049,9 +5049,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 132,
+    "stationId": 2,
     "agency": "DD.NYC",
-    "agencyId": 1132
+    "agencyId": 12
   },
   {
     "Report Date": "10.16.2023",
@@ -5087,7 +5087,7 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 133,
+    "stationId": 2,
     "agency": null,
     "agencyId": null
   },
@@ -5125,7 +5125,7 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 134,
+    "stationId": 2,
     "agency": null,
     "agencyId": null
   },
@@ -5163,9 +5163,9 @@
     "Advertiser Data CPM": "1.1",
     "Conversions": 0,
     "station": "True Impact Media",
-    "stationId": 135,
+    "stationId": 11,
     "agency": "Media Culture",
-    "agencyId": 1135
+    "agencyId": 1
   },
   {
     "Report Date": "10.16.2023",
@@ -5201,9 +5201,9 @@
     "Advertiser Data CPM": "1.2",
     "Conversions": 0,
     "station": "True Impact Media",
-    "stationId": 136,
+    "stationId": 11,
     "agency": "The Remnant Agency",
-    "agencyId": 1136
+    "agencyId": 2
   },
   {
     "Report Date": "10.16.2023",
@@ -5239,9 +5239,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "True Impact Media",
-    "stationId": 137,
+    "stationId": 11,
     "agency": "Bell Media",
-    "agencyId": 1137
+    "agencyId": 3
   },
   {
     "Report Date": "10.16.2023",
@@ -5277,9 +5277,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 138,
+    "stationId": 55,
     "agency": "SmartSites",
-    "agencyId": 1138
+    "agencyId": 4
   },
   {
     "Report Date": "10.16.2023",
@@ -5315,9 +5315,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 139,
+    "stationId": 55,
     "agency": "Ignite Visibility",
-    "agencyId": 1139
+    "agencyId": 5
   },
   {
     "Report Date": "10.16.2023",
@@ -5353,9 +5353,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 140,
+    "stationId": 55,
     "agency": "HigherVisibility",
-    "agencyId": 1140
+    "agencyId": 6
   },
   {
     "Report Date": "10.16.2023",
@@ -5391,9 +5391,9 @@
     "Advertiser Data CPM": "1",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 141,
+    "stationId": 55,
     "agency": "Grow My Ads",
-    "agencyId": 1141
+    "agencyId": 7
   },
   {
     "Report Date": "10.16.2023",
@@ -5429,9 +5429,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 142,
+    "stationId": 55,
     "agency": "SEM Nexus",
-    "agencyId": 1142
+    "agencyId": 8
   },
   {
     "Report Date": "10.16.2023",
@@ -5467,9 +5467,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 143,
+    "stationId": 55,
     "agency": "Propaganda Creative",
-    "agencyId": 1143
+    "agencyId": 9
   },
   {
     "Report Date": "10.16.2023",
@@ -5505,7 +5505,7 @@
     "Advertiser Data CPM": "1.3",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 144,
+    "stationId": 55,
     "agency": null,
     "agencyId": null
   },
@@ -5543,9 +5543,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 145,
+    "stationId": 2,
     "agency": "Digital Silk",
-    "agencyId": 1145
+    "agencyId": 10
   },
   {
     "Report Date": "10.16.2023",
@@ -5581,9 +5581,9 @@
     "Advertiser Data CPM": "1.3",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 146,
+    "stationId": 2,
     "agency": "Disruptive Advertising",
-    "agencyId": 1146
+    "agencyId": 11
   },
   {
     "Report Date": "10.16.2023",
@@ -5619,9 +5619,9 @@
     "Advertiser Data CPM": "1.5",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 147,
+    "stationId": 2,
     "agency": "DD.NYC",
-    "agencyId": 1147
+    "agencyId": 12
   },
   {
     "Report Date": "10.16.2023",
@@ -5657,7 +5657,7 @@
     "Advertiser Data CPM": "1.3",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 148,
+    "stationId": 2,
     "agency": null,
     "agencyId": null
   },
@@ -5695,7 +5695,7 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 149,
+    "stationId": 2,
     "agency": null,
     "agencyId": null
   },
@@ -5733,9 +5733,9 @@
     "Advertiser Data CPM": "1",
     "Conversions": 0,
     "station": "True Impact Media",
-    "stationId": 150,
+    "stationId": 11,
     "agency": "Media Culture",
-    "agencyId": 1150
+    "agencyId": 1
   },
   {
     "Report Date": "10.16.2023",
@@ -5771,9 +5771,9 @@
     "Advertiser Data CPM": "1.2",
     "Conversions": 0,
     "station": "True Impact Media",
-    "stationId": 151,
+    "stationId": 11,
     "agency": "The Remnant Agency",
-    "agencyId": 1151
+    "agencyId": 2
   },
   {
     "Report Date": "10.16.2023",
@@ -5809,9 +5809,9 @@
     "Advertiser Data CPM": "1.1",
     "Conversions": 0,
     "station": "True Impact Media",
-    "stationId": 152,
+    "stationId": 11,
     "agency": "Bell Media",
-    "agencyId": 1152
+    "agencyId": 3
   },
   {
     "Report Date": "10.16.2023",
@@ -5847,9 +5847,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 153,
+    "stationId": 55,
     "agency": "SmartSites",
-    "agencyId": 1153
+    "agencyId": 4
   },
   {
     "Report Date": "10.16.2023",
@@ -5885,9 +5885,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 154,
+    "stationId": 55,
     "agency": "Ignite Visibility",
-    "agencyId": 1154
+    "agencyId": 5
   },
   {
     "Report Date": "10.16.2023",
@@ -5923,9 +5923,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 155,
+    "stationId": 55,
     "agency": "HigherVisibility",
-    "agencyId": 1155
+    "agencyId": 6
   },
   {
     "Report Date": "10.16.2023",
@@ -5961,9 +5961,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 156,
+    "stationId": 55,
     "agency": "Grow My Ads",
-    "agencyId": 1156
+    "agencyId": 7
   },
   {
     "Report Date": "10.16.2023",
@@ -5999,9 +5999,9 @@
     "Advertiser Data CPM": "1.2",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 157,
+    "stationId": 55,
     "agency": "SEM Nexus",
-    "agencyId": 1157
+    "agencyId": 8
   },
   {
     "Report Date": "10.16.2023",
@@ -6037,9 +6037,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 158,
+    "stationId": 55,
     "agency": "Propaganda Creative",
-    "agencyId": 1158
+    "agencyId": 9
   },
   {
     "Report Date": "10.15.2023",
@@ -6075,7 +6075,7 @@
     "Advertiser Data CPM": "1",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 159,
+    "stationId": 55,
     "agency": null,
     "agencyId": null
   },
@@ -6113,9 +6113,9 @@
     "Advertiser Data CPM": "5",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 160,
+    "stationId": 2,
     "agency": "Digital Silk",
-    "agencyId": 1160
+    "agencyId": 10
   },
   {
     "Report Date": "10.15.2023",
@@ -6151,9 +6151,9 @@
     "Advertiser Data CPM": "1.2",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 161,
+    "stationId": 2,
     "agency": "Disruptive Advertising",
-    "agencyId": 1161
+    "agencyId": 11
   },
   {
     "Report Date": "10.15.2023",
@@ -6189,9 +6189,9 @@
     "Advertiser Data CPM": "1.2",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 162,
+    "stationId": 2,
     "agency": "DD.NYC",
-    "agencyId": 1162
+    "agencyId": 12
   },
   {
     "Report Date": "10.15.2023",
@@ -6227,7 +6227,7 @@
     "Advertiser Data CPM": "1.5",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 163,
+    "stationId": 2,
     "agency": null,
     "agencyId": null
   },
@@ -6265,7 +6265,7 @@
     "Advertiser Data CPM": "1",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 164,
+    "stationId": 2,
     "agency": null,
     "agencyId": null
   },
@@ -6303,9 +6303,9 @@
     "Advertiser Data CPM": "5",
     "Conversions": 0,
     "station": "True Impact Media",
-    "stationId": 165,
+    "stationId": 11,
     "agency": "Media Culture",
-    "agencyId": 1165
+    "agencyId": 1
   },
   {
     "Report Date": "10.15.2023",
@@ -6341,9 +6341,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "True Impact Media",
-    "stationId": 166,
+    "stationId": 11,
     "agency": "The Remnant Agency",
-    "agencyId": 1166
+    "agencyId": 2
   },
   {
     "Report Date": "10.15.2023",
@@ -6379,9 +6379,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "True Impact Media",
-    "stationId": 167,
+    "stationId": 11,
     "agency": "Bell Media",
-    "agencyId": 1167
+    "agencyId": 3
   },
   {
     "Report Date": "10.15.2023",
@@ -6417,9 +6417,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 168,
+    "stationId": 55,
     "agency": "SmartSites",
-    "agencyId": 1168
+    "agencyId": 4
   },
   {
     "Report Date": "10.15.2023",
@@ -6455,9 +6455,9 @@
     "Advertiser Data CPM": "1.3",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 169,
+    "stationId": 55,
     "agency": "Ignite Visibility",
-    "agencyId": 1169
+    "agencyId": 5
   },
   {
     "Report Date": "10.15.2023",
@@ -6493,9 +6493,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 170,
+    "stationId": 55,
     "agency": "HigherVisibility",
-    "agencyId": 1170
+    "agencyId": 6
   },
   {
     "Report Date": "10.15.2023",
@@ -6531,9 +6531,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 171,
+    "stationId": 55,
     "agency": "Grow My Ads",
-    "agencyId": 1171
+    "agencyId": 7
   },
   {
     "Report Date": "10.15.2023",
@@ -6569,9 +6569,9 @@
     "Advertiser Data CPM": "1.5",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 172,
+    "stationId": 55,
     "agency": "SEM Nexus",
-    "agencyId": 1172
+    "agencyId": 8
   },
   {
     "Report Date": "10.15.2023",
@@ -6607,9 +6607,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 173,
+    "stationId": 55,
     "agency": "Propaganda Creative",
-    "agencyId": 1173
+    "agencyId": 9
   },
   {
     "Report Date": "10.15.2023",
@@ -6645,7 +6645,7 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 174,
+    "stationId": 55,
     "agency": null,
     "agencyId": null
   },
@@ -6683,9 +6683,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 175,
+    "stationId": 2,
     "agency": "Digital Silk",
-    "agencyId": 1175
+    "agencyId": 10
   },
   {
     "Report Date": "10.15.2023",
@@ -6721,9 +6721,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 176,
+    "stationId": 2,
     "agency": "Disruptive Advertising",
-    "agencyId": 1176
+    "agencyId": 11
   },
   {
     "Report Date": "10.15.2023",
@@ -6759,9 +6759,9 @@
     "Advertiser Data CPM": "1",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 177,
+    "stationId": 2,
     "agency": "DD.NYC",
-    "agencyId": 1177
+    "agencyId": 12
   },
   {
     "Report Date": "10.15.2023",
@@ -6797,7 +6797,7 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 178,
+    "stationId": 2,
     "agency": null,
     "agencyId": null
   },
@@ -6835,7 +6835,7 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 179,
+    "stationId": 2,
     "agency": null,
     "agencyId": null
   },
@@ -6873,9 +6873,9 @@
     "Advertiser Data CPM": "1.5",
     "Conversions": 0,
     "station": "True Impact Media",
-    "stationId": 180,
+    "stationId": 11,
     "agency": "Media Culture",
-    "agencyId": 1180
+    "agencyId": 1
   },
   {
     "Report Date": "10.15.2023",
@@ -6911,9 +6911,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "True Impact Media",
-    "stationId": 181,
+    "stationId": 11,
     "agency": "The Remnant Agency",
-    "agencyId": 1181
+    "agencyId": 2
   },
   {
     "Report Date": "10.15.2023",
@@ -6949,9 +6949,9 @@
     "Advertiser Data CPM": "1",
     "Conversions": 0,
     "station": "True Impact Media",
-    "stationId": 182,
+    "stationId": 11,
     "agency": "Bell Media",
-    "agencyId": 1182
+    "agencyId": 3
   },
   {
     "Report Date": "10.15.2023",
@@ -6987,9 +6987,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 183,
+    "stationId": 55,
     "agency": "SmartSites",
-    "agencyId": 1183
+    "agencyId": 4
   },
   {
     "Report Date": "10.15.2023",
@@ -7025,9 +7025,9 @@
     "Advertiser Data CPM": "1",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 184,
+    "stationId": 55,
     "agency": "Ignite Visibility",
-    "agencyId": 1184
+    "agencyId": 5
   },
   {
     "Report Date": "10.15.2023",
@@ -7063,9 +7063,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 185,
+    "stationId": 55,
     "agency": "HigherVisibility",
-    "agencyId": 1185
+    "agencyId": 6
   },
   {
     "Report Date": "10.15.2023",
@@ -7101,9 +7101,9 @@
     "Advertiser Data CPM": "1.3",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 186,
+    "stationId": 55,
     "agency": "Grow My Ads",
-    "agencyId": 1186
+    "agencyId": 7
   },
   {
     "Report Date": "10.15.2023",
@@ -7139,9 +7139,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 187,
+    "stationId": 55,
     "agency": "SEM Nexus",
-    "agencyId": 1187
+    "agencyId": 8
   },
   {
     "Report Date": "10.15.2023",
@@ -7177,9 +7177,9 @@
     "Advertiser Data CPM": "1",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 188,
+    "stationId": 55,
     "agency": "Propaganda Creative",
-    "agencyId": 1188
+    "agencyId": 9
   },
   {
     "Report Date": "10.15.2023",
@@ -7215,7 +7215,7 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 189,
+    "stationId": 55,
     "agency": null,
     "agencyId": null
   },
@@ -7253,9 +7253,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 190,
+    "stationId": 2,
     "agency": "Digital Silk",
-    "agencyId": 1190
+    "agencyId": 10
   },
   {
     "Report Date": "10.15.2023",
@@ -7291,9 +7291,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 191,
+    "stationId": 2,
     "agency": "Disruptive Advertising",
-    "agencyId": 1191
+    "agencyId": 11
   },
   {
     "Report Date": "10.15.2023",
@@ -7329,9 +7329,9 @@
     "Advertiser Data CPM": "1.3",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 192,
+    "stationId": 2,
     "agency": "DD.NYC",
-    "agencyId": 1192
+    "agencyId": 12
   },
   {
     "Report Date": "10.15.2023",
@@ -7367,7 +7367,7 @@
     "Advertiser Data CPM": "5",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 193,
+    "stationId": 2,
     "agency": null,
     "agencyId": null
   },
@@ -7405,7 +7405,7 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 194,
+    "stationId": 2,
     "agency": null,
     "agencyId": null
   },
@@ -7443,9 +7443,9 @@
     "Advertiser Data CPM": "1.128",
     "Conversions": 0,
     "station": "True Impact Media",
-    "stationId": 195,
+    "stationId": 11,
     "agency": "Media Culture",
-    "agencyId": 1195
+    "agencyId": 1
   },
   {
     "Report Date": "10.15.2023",
@@ -7481,9 +7481,9 @@
     "Advertiser Data CPM": "1.5",
     "Conversions": 0,
     "station": "True Impact Media",
-    "stationId": 196,
+    "stationId": 11,
     "agency": "The Remnant Agency",
-    "agencyId": 1196
+    "agencyId": 2
   },
   {
     "Report Date": "10.15.2023",
@@ -7519,9 +7519,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "True Impact Media",
-    "stationId": 197,
+    "stationId": 11,
     "agency": "Bell Media",
-    "agencyId": 1197
+    "agencyId": 3
   },
   {
     "Report Date": "10.15.2023",
@@ -7557,9 +7557,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 198,
+    "stationId": 55,
     "agency": "SmartSites",
-    "agencyId": 1198
+    "agencyId": 4
   },
   {
     "Report Date": "10.14.2023",
@@ -7595,9 +7595,9 @@
     "Advertiser Data CPM": "1",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 199,
+    "stationId": 55,
     "agency": "Ignite Visibility",
-    "agencyId": 1199
+    "agencyId": 5
   },
   {
     "Report Date": "10.14.2023",
@@ -7633,9 +7633,9 @@
     "Advertiser Data CPM": "1",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 200,
+    "stationId": 55,
     "agency": "HigherVisibility",
-    "agencyId": 1200
+    "agencyId": 6
   },
   {
     "Report Date": "10.14.2023",
@@ -7671,9 +7671,9 @@
     "Advertiser Data CPM": "1.5",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 201,
+    "stationId": 55,
     "agency": "Grow My Ads",
-    "agencyId": 1201
+    "agencyId": 7
   },
   {
     "Report Date": "10.14.2023",
@@ -7709,9 +7709,9 @@
     "Advertiser Data CPM": "1",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 202,
+    "stationId": 55,
     "agency": "SEM Nexus",
-    "agencyId": 1202
+    "agencyId": 8
   },
   {
     "Report Date": "10.14.2023",
@@ -7747,9 +7747,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 203,
+    "stationId": 55,
     "agency": "Propaganda Creative",
-    "agencyId": 1203
+    "agencyId": 9
   },
   {
     "Report Date": "10.14.2023",
@@ -7785,7 +7785,7 @@
     "Advertiser Data CPM": "1.3",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 204,
+    "stationId": 55,
     "agency": null,
     "agencyId": null
   },
@@ -7823,9 +7823,9 @@
     "Advertiser Data CPM": "1.5",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 205,
+    "stationId": 2,
     "agency": "Digital Silk",
-    "agencyId": 1205
+    "agencyId": 10
   },
   {
     "Report Date": "10.14.2023",
@@ -7861,9 +7861,9 @@
     "Advertiser Data CPM": "1.1",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 206,
+    "stationId": 2,
     "agency": "Disruptive Advertising",
-    "agencyId": 1206
+    "agencyId": 11
   },
   {
     "Report Date": "10.14.2023",
@@ -7899,9 +7899,9 @@
     "Advertiser Data CPM": "0.78",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 207,
+    "stationId": 2,
     "agency": "DD.NYC",
-    "agencyId": 1207
+    "agencyId": 12
   },
   {
     "Report Date": "10.14.2023",
@@ -7937,7 +7937,7 @@
     "Advertiser Data CPM": "1.3",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 208,
+    "stationId": 2,
     "agency": null,
     "agencyId": null
   },
@@ -7975,7 +7975,7 @@
     "Advertiser Data CPM": "1.3",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 209,
+    "stationId": 2,
     "agency": null,
     "agencyId": null
   },
@@ -8013,9 +8013,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "True Impact Media",
-    "stationId": 210,
+    "stationId": 11,
     "agency": "Media Culture",
-    "agencyId": 1210
+    "agencyId": 1
   },
   {
     "Report Date": "10.14.2023",
@@ -8051,9 +8051,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "True Impact Media",
-    "stationId": 211,
+    "stationId": 11,
     "agency": "The Remnant Agency",
-    "agencyId": 1211
+    "agencyId": 2
   },
   {
     "Report Date": "10.14.2023",
@@ -8089,9 +8089,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "True Impact Media",
-    "stationId": 212,
+    "stationId": 11,
     "agency": "Bell Media",
-    "agencyId": 1212
+    "agencyId": 3
   },
   {
     "Report Date": "10.14.2023",
@@ -8127,9 +8127,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 213,
+    "stationId": 55,
     "agency": "SmartSites",
-    "agencyId": 1213
+    "agencyId": 4
   },
   {
     "Report Date": "10.14.2023",
@@ -8165,9 +8165,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 214,
+    "stationId": 55,
     "agency": "Ignite Visibility",
-    "agencyId": 1214
+    "agencyId": 5
   },
   {
     "Report Date": "10.14.2023",
@@ -8203,9 +8203,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 215,
+    "stationId": 55,
     "agency": "HigherVisibility",
-    "agencyId": 1215
+    "agencyId": 6
   },
   {
     "Report Date": "10.14.2023",
@@ -8241,9 +8241,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 216,
+    "stationId": 55,
     "agency": "Grow My Ads",
-    "agencyId": 1216
+    "agencyId": 7
   },
   {
     "Report Date": "10.14.2023",
@@ -8279,9 +8279,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 217,
+    "stationId": 55,
     "agency": "SEM Nexus",
-    "agencyId": 1217
+    "agencyId": 8
   },
   {
     "Report Date": "10.14.2023",
@@ -8317,9 +8317,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 218,
+    "stationId": 55,
     "agency": "Propaganda Creative",
-    "agencyId": 1218
+    "agencyId": 9
   },
   {
     "Report Date": "10.14.2023",
@@ -8355,7 +8355,7 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 219,
+    "stationId": 55,
     "agency": null,
     "agencyId": null
   },
@@ -8393,9 +8393,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 220,
+    "stationId": 2,
     "agency": "Digital Silk",
-    "agencyId": 1220
+    "agencyId": 10
   },
   {
     "Report Date": "10.14.2023",
@@ -8431,9 +8431,9 @@
     "Advertiser Data CPM": "1",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 221,
+    "stationId": 2,
     "agency": "Disruptive Advertising",
-    "agencyId": 1221
+    "agencyId": 11
   },
   {
     "Report Date": "10.14.2023",
@@ -8469,9 +8469,9 @@
     "Advertiser Data CPM": "1",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 222,
+    "stationId": 2,
     "agency": "DD.NYC",
-    "agencyId": 1222
+    "agencyId": 12
   },
   {
     "Report Date": "10.14.2023",
@@ -8507,7 +8507,7 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 223,
+    "stationId": 2,
     "agency": null,
     "agencyId": null
   },
@@ -8545,7 +8545,7 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 224,
+    "stationId": 2,
     "agency": null,
     "agencyId": null
   },
@@ -8583,9 +8583,9 @@
     "Advertiser Data CPM": "1",
     "Conversions": 0,
     "station": "True Impact Media",
-    "stationId": 225,
+    "stationId": 11,
     "agency": "Media Culture",
-    "agencyId": 1225
+    "agencyId": 1
   },
   {
     "Report Date": "10.14.2023",
@@ -8621,9 +8621,9 @@
     "Advertiser Data CPM": "1.1",
     "Conversions": 0,
     "station": "True Impact Media",
-    "stationId": 226,
+    "stationId": 11,
     "agency": "The Remnant Agency",
-    "agencyId": 1226
+    "agencyId": 2
   },
   {
     "Report Date": "10.14.2023",
@@ -8659,9 +8659,9 @@
     "Advertiser Data CPM": "1.3",
     "Conversions": 0,
     "station": "True Impact Media",
-    "stationId": 227,
+    "stationId": 11,
     "agency": "Bell Media",
-    "agencyId": 1227
+    "agencyId": 3
   },
   {
     "Report Date": "10.14.2023",
@@ -8697,9 +8697,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 228,
+    "stationId": 55,
     "agency": "SmartSites",
-    "agencyId": 1228
+    "agencyId": 4
   },
   {
     "Report Date": "10.14.2023",
@@ -8735,9 +8735,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 229,
+    "stationId": 55,
     "agency": "Ignite Visibility",
-    "agencyId": 1229
+    "agencyId": 5
   },
   {
     "Report Date": "10.14.2023",
@@ -8773,9 +8773,9 @@
     "Advertiser Data CPM": "5",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 230,
+    "stationId": 55,
     "agency": "HigherVisibility",
-    "agencyId": 1230
+    "agencyId": 6
   },
   {
     "Report Date": "10.14.2023",
@@ -8811,9 +8811,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 231,
+    "stationId": 55,
     "agency": "Grow My Ads",
-    "agencyId": 1231
+    "agencyId": 7
   },
   {
     "Report Date": "10.14.2023",
@@ -8849,9 +8849,9 @@
     "Advertiser Data CPM": "1.5",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 232,
+    "stationId": 55,
     "agency": "SEM Nexus",
-    "agencyId": 1232
+    "agencyId": 8
   },
   {
     "Report Date": "10.14.2023",
@@ -8887,9 +8887,9 @@
     "Advertiser Data CPM": "1",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 233,
+    "stationId": 55,
     "agency": "Propaganda Creative",
-    "agencyId": 1233
+    "agencyId": 9
   },
   {
     "Report Date": "10.14.2023",
@@ -8925,7 +8925,7 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 234,
+    "stationId": 55,
     "agency": null,
     "agencyId": null
   },
@@ -8963,9 +8963,9 @@
     "Advertiser Data CPM": "1",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 235,
+    "stationId": 2,
     "agency": "Digital Silk",
-    "agencyId": 1235
+    "agencyId": 10
   },
   {
     "Report Date": "10.14.2023",
@@ -9001,9 +9001,9 @@
     "Advertiser Data CPM": "1",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 236,
+    "stationId": 2,
     "agency": "Disruptive Advertising",
-    "agencyId": 1236
+    "agencyId": 11
   },
   {
     "Report Date": "10.14.2023",
@@ -9039,9 +9039,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 237,
+    "stationId": 2,
     "agency": "DD.NYC",
-    "agencyId": 1237
+    "agencyId": 12
   },
   {
     "Report Date": "10.14.2023",
@@ -9077,7 +9077,7 @@
     "Advertiser Data CPM": "0.9",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 238,
+    "stationId": 2,
     "agency": null,
     "agencyId": null
   },
@@ -9115,7 +9115,7 @@
     "Advertiser Data CPM": "1",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 239,
+    "stationId": 2,
     "agency": null,
     "agencyId": null
   },
@@ -9153,9 +9153,9 @@
     "Advertiser Data CPM": "1",
     "Conversions": 0,
     "station": "True Impact Media",
-    "stationId": 240,
+    "stationId": 11,
     "agency": "Media Culture",
-    "agencyId": 1240
+    "agencyId": 1
   },
   {
     "Report Date": "10.13.2023",
@@ -9191,9 +9191,9 @@
     "Advertiser Data CPM": "1",
     "Conversions": 0,
     "station": "True Impact Media",
-    "stationId": 241,
+    "stationId": 11,
     "agency": "The Remnant Agency",
-    "agencyId": 1241
+    "agencyId": 2
   },
   {
     "Report Date": "10.13.2023",
@@ -9229,9 +9229,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "True Impact Media",
-    "stationId": 242,
+    "stationId": 11,
     "agency": "Bell Media",
-    "agencyId": 1242
+    "agencyId": 3
   },
   {
     "Report Date": "10.13.2023",
@@ -9267,9 +9267,9 @@
     "Advertiser Data CPM": "1.3",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 243,
+    "stationId": 55,
     "agency": "SmartSites",
-    "agencyId": 1243
+    "agencyId": 4
   },
   {
     "Report Date": "10.13.2023",
@@ -9305,9 +9305,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 244,
+    "stationId": 55,
     "agency": "Ignite Visibility",
-    "agencyId": 1244
+    "agencyId": 5
   },
   {
     "Report Date": "10.13.2023",
@@ -9343,9 +9343,9 @@
     "Advertiser Data CPM": "1",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 245,
+    "stationId": 55,
     "agency": "HigherVisibility",
-    "agencyId": 1245
+    "agencyId": 6
   },
   {
     "Report Date": "10.13.2023",
@@ -9381,9 +9381,9 @@
     "Advertiser Data CPM": "1.1",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 246,
+    "stationId": 55,
     "agency": "Grow My Ads",
-    "agencyId": 1246
+    "agencyId": 7
   },
   {
     "Report Date": "10.13.2023",
@@ -9419,9 +9419,9 @@
     "Advertiser Data CPM": "1",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 247,
+    "stationId": 55,
     "agency": "SEM Nexus",
-    "agencyId": 1247
+    "agencyId": 8
   },
   {
     "Report Date": "10.13.2023",
@@ -9457,9 +9457,9 @@
     "Advertiser Data CPM": "1.2",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 248,
+    "stationId": 55,
     "agency": "Propaganda Creative",
-    "agencyId": 1248
+    "agencyId": 9
   },
   {
     "Report Date": "10.13.2023",
@@ -9495,7 +9495,7 @@
     "Advertiser Data CPM": "1",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 249,
+    "stationId": 55,
     "agency": null,
     "agencyId": null
   },
@@ -9533,9 +9533,9 @@
     "Advertiser Data CPM": "1",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 250,
+    "stationId": 2,
     "agency": "Digital Silk",
-    "agencyId": 1250
+    "agencyId": 10
   },
   {
     "Report Date": "10.13.2023",
@@ -9571,9 +9571,9 @@
     "Advertiser Data CPM": "1.1",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 251,
+    "stationId": 2,
     "agency": "Disruptive Advertising",
-    "agencyId": 1251
+    "agencyId": 11
   },
   {
     "Report Date": "10.13.2023",
@@ -9609,9 +9609,9 @@
     "Advertiser Data CPM": "5",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 252,
+    "stationId": 2,
     "agency": "DD.NYC",
-    "agencyId": 1252
+    "agencyId": 12
   },
   {
     "Report Date": "10.13.2023",
@@ -9647,7 +9647,7 @@
     "Advertiser Data CPM": "1",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 253,
+    "stationId": 2,
     "agency": null,
     "agencyId": null
   },
@@ -9685,7 +9685,7 @@
     "Advertiser Data CPM": "0.9",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 254,
+    "stationId": 2,
     "agency": null,
     "agencyId": null
   },
@@ -9723,9 +9723,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "True Impact Media",
-    "stationId": 255,
+    "stationId": 11,
     "agency": "Media Culture",
-    "agencyId": 1255
+    "agencyId": 1
   },
   {
     "Report Date": "10.13.2023",
@@ -9761,9 +9761,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "True Impact Media",
-    "stationId": 256,
+    "stationId": 11,
     "agency": "The Remnant Agency",
-    "agencyId": 1256
+    "agencyId": 2
   },
   {
     "Report Date": "10.13.2023",
@@ -9799,9 +9799,9 @@
     "Advertiser Data CPM": "0.74",
     "Conversions": 0,
     "station": "True Impact Media",
-    "stationId": 257,
+    "stationId": 11,
     "agency": "Bell Media",
-    "agencyId": 1257
+    "agencyId": 3
   },
   {
     "Report Date": "10.13.2023",
@@ -9837,9 +9837,9 @@
     "Advertiser Data CPM": "1.3",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 258,
+    "stationId": 55,
     "agency": "SmartSites",
-    "agencyId": 1258
+    "agencyId": 4
   },
   {
     "Report Date": "10.13.2023",
@@ -9875,9 +9875,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 259,
+    "stationId": 55,
     "agency": "Ignite Visibility",
-    "agencyId": 1259
+    "agencyId": 5
   },
   {
     "Report Date": "10.13.2023",
@@ -9913,9 +9913,9 @@
     "Advertiser Data CPM": "1.5",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 260,
+    "stationId": 55,
     "agency": "HigherVisibility",
-    "agencyId": 1260
+    "agencyId": 6
   },
   {
     "Report Date": "10.13.2023",
@@ -9951,9 +9951,9 @@
     "Advertiser Data CPM": "1",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 261,
+    "stationId": 55,
     "agency": "Grow My Ads",
-    "agencyId": 1261
+    "agencyId": 7
   },
   {
     "Report Date": "10.13.2023",
@@ -9989,9 +9989,9 @@
     "Advertiser Data CPM": "1",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 262,
+    "stationId": 55,
     "agency": "SEM Nexus",
-    "agencyId": 1262
+    "agencyId": 8
   },
   {
     "Report Date": "10.13.2023",
@@ -10027,9 +10027,9 @@
     "Advertiser Data CPM": "1",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 263,
+    "stationId": 55,
     "agency": "Propaganda Creative",
-    "agencyId": 1263
+    "agencyId": 9
   },
   {
     "Report Date": "10.13.2023",
@@ -10065,7 +10065,7 @@
     "Advertiser Data CPM": "1",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 264,
+    "stationId": 55,
     "agency": null,
     "agencyId": null
   },
@@ -10103,9 +10103,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 265,
+    "stationId": 2,
     "agency": "Digital Silk",
-    "agencyId": 1265
+    "agencyId": 10
   },
   {
     "Report Date": "10.13.2023",
@@ -10141,9 +10141,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 266,
+    "stationId": 2,
     "agency": "Disruptive Advertising",
-    "agencyId": 1266
+    "agencyId": 11
   },
   {
     "Report Date": "10.13.2023",
@@ -10179,9 +10179,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 267,
+    "stationId": 2,
     "agency": "DD.NYC",
-    "agencyId": 1267
+    "agencyId": 12
   },
   {
     "Report Date": "10.13.2023",
@@ -10217,7 +10217,7 @@
     "Advertiser Data CPM": "1.2",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 268,
+    "stationId": 2,
     "agency": null,
     "agencyId": null
   },
@@ -10255,7 +10255,7 @@
     "Advertiser Data CPM": "1",
     "Conversions": 0,
     "station": "S&P Global",
-    "stationId": 269,
+    "stationId": 2,
     "agency": null,
     "agencyId": null
   },
@@ -10293,9 +10293,9 @@
     "Advertiser Data CPM": "5",
     "Conversions": 0,
     "station": "True Impact Media",
-    "stationId": 270,
+    "stationId": 11,
     "agency": "Media Culture",
-    "agencyId": 1270
+    "agencyId": 1
   },
   {
     "Report Date": "10.13.2023",
@@ -10331,9 +10331,9 @@
     "Advertiser Data CPM": "1.1",
     "Conversions": 0,
     "station": "True Impact Media",
-    "stationId": 271,
+    "stationId": 11,
     "agency": "The Remnant Agency",
-    "agencyId": 1271
+    "agencyId": 2
   },
   {
     "Report Date": "10.13.2023",
@@ -10369,9 +10369,9 @@
     "Advertiser Data CPM": "1.3",
     "Conversions": 0,
     "station": "True Impact Media",
-    "stationId": 272,
+    "stationId": 11,
     "agency": "Bell Media",
-    "agencyId": 1272
+    "agencyId": 3
   },
   {
     "Report Date": "10.13.2023",
@@ -10407,9 +10407,9 @@
     "Advertiser Data CPM": "1.1",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 273,
+    "stationId": 55,
     "agency": "SmartSites",
-    "agencyId": 1273
+    "agencyId": 4
   },
   {
     "Report Date": "10.13.2023",
@@ -10445,9 +10445,9 @@
     "Advertiser Data CPM": "1.5",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 274,
+    "stationId": 55,
     "agency": "Ignite Visibility",
-    "agencyId": 1274
+    "agencyId": 5
   },
   {
     "Report Date": "10.13.2023",
@@ -10483,9 +10483,9 @@
     "Advertiser Data CPM": "1.3",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 275,
+    "stationId": 55,
     "agency": "HigherVisibility",
-    "agencyId": 1275
+    "agencyId": 6
   },
   {
     "Report Date": "10.13.2023",
@@ -10521,9 +10521,9 @@
     "Advertiser Data CPM": "1",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 276,
+    "stationId": 55,
     "agency": "Grow My Ads",
-    "agencyId": 1276
+    "agencyId": 7
   },
   {
     "Report Date": "10.13.2023",
@@ -10559,9 +10559,9 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 277,
+    "stationId": 55,
     "agency": "SEM Nexus",
-    "agencyId": 1277
+    "agencyId": 8
   },
   {
     "Report Date": "10.13.2023",
@@ -10597,8 +10597,8 @@
     "Advertiser Data CPM": "-",
     "Conversions": 0,
     "station": "National Media Spots",
-    "stationId": 278,
+    "stationId": 55,
     "agency": "Propaganda Creative",
-    "agencyId": 1278
+    "agencyId": 9
   }
 ]
