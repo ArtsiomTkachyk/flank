@@ -209,8 +209,17 @@ function Filtering({ dataArray, setCurrentDataArray, setTotals }) {
     );
   }, [dataFiltered]);
 
-  //
-  //
+  /*
+  <div className='col-span-1 flex items-center w-full'>
+          <SelectWithSearch
+            iconSVG={null}
+            placeholder='Select Agency'
+            listOfItems={agencyList}
+            value={agencyValue}
+            setValue={setAgencyValue}
+          />
+        </div>
+  */
 
   return (
     <div className='h-max pb-8 shadow-md px-4 flex-wrap mb-7 rounded-lg border overflow-hidden'>
@@ -222,12 +231,11 @@ function Filtering({ dataArray, setCurrentDataArray, setTotals }) {
         </button>
       </div>
 
-      <div className='grid gap-y-1 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-3'>
-        <div className='col-span-1 md:col-span-2 pt-0 '>
+      <div className='grid gap-y-1 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-3'>
+        <div className='col-span-1 md:col-span-1 pt-0 '>
           <LocalizationProvider dateAdapter={AdapterDayjs}>
             <DemoContainer components={['SingleInputDateRangeField']}>
               <DateRangePicker
-                className='overflow-hidden'
                 format='MMM D,YYYY'
                 calendars={1}
                 sx={{
@@ -240,7 +248,7 @@ function Filtering({ dataArray, setCurrentDataArray, setTotals }) {
                 slotProps={{
                   textField: {
                     InputProps: {
-                      sx: { height: 38, minWidth: 270 },
+                      sx: { height: 38 },
                       startAdornment: <CalendarIcon />,
                       endAdornment: <DropdownIcon />,
                     },
@@ -261,15 +269,7 @@ function Filtering({ dataArray, setCurrentDataArray, setTotals }) {
             setValue={setStationValue}
           />
         </div>
-        <div className='col-span-1 flex items-center w-full'>
-          <SelectWithSearch
-            iconSVG={null}
-            placeholder='Select Agency'
-            listOfItems={agencyList}
-            value={agencyValue}
-            setValue={setAgencyValue}
-          />
-        </div>
+
         <div className='col-span-1 flex items-center w-full'>
           <SelectWithSearch
             iconSVG={AdvertiserSVG}
